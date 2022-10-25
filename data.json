@@ -1,0 +1,63 @@
+{
+    "id": "Root",
+    "next": "question1",
+    "text": "Pradžia",
+    "items": [
+        {
+            "id": "question1",
+            "question": "Jūs ir auka saugūs",
+            "answers": [
+                {
+                    "id": "question1Yes",
+                    "text": "Taip",
+                    "next": "question3",
+                    "color": "green"
+
+                },
+                {
+                    "id": "question1no",
+                    "text": "Ne",
+                    "next": "question2",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "id": "question2",
+            "question": "Galite pašalinti pavojų",
+            "answers": [
+                {
+                    "id": "question2Yes",
+                    "text": "Taip",
+                    "color": "green"
+                },
+                {
+                    "id": "question2no",
+                    "text": "Ne",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "id": "question3",
+            "question": "Pasirinkti situaciją",
+            "answers": [
+                {
+                    "id": "question31",
+                    "text": "Žmogus užspringo",
+                    "color": "gray"
+                },
+                {
+                    "id": "question32",
+                    "text": "Nukentėjo vaikas",
+                    "color": "yellow"
+                },
+                {
+                    "id": "question33",
+                    "text": "Sužeistas asmuo",
+                    "color": "pink"
+                }
+            ]
+        },
+    ]
+}
