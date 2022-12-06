@@ -10,7 +10,10 @@
 
 Install expo: https://docs.expo.dev/get-started/installation/
 
-## 3. Run instructions
+## 3. Install NPM
+CMD install npm
+
+Run instructions
 ### Run ios
 ```
 npm run ios
