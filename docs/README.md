@@ -1,8 +1,5 @@
 # Documentation
 
-## Technology stack
-
-1. 
 
 ## Context
 
