@@ -1,30 +1,105 @@
 {
     "id": "Root",
     "next": "question1",
-    "text": "Pradžia",
+    "text": "",
+    "title": "Pradžia",
     "items": [
         {
             "id": "question1",
-            "question": "Jūs ir auka saugūs",
+            "title": "Pradžia",
+            "question": "",
+            "parent": "Root",
             "answers": [
                 {
-                    "id": "question1Yes",
-                    "text": "Taip",
-                    "next": "question3",
-                    "color": "green"
+                    "id": "question1blood",
+                    "text": "Pirmiausia stabdau masyvų kraujavimą iš galūnių",
+                    "next": "questionblood1",
+                    "color": "red"
 
                 },
                 {
-                    "id": "question1no",
+                    "id": "question1help",
+                    "text": "pradedu gaivinti nekvėpuojantį nukentėjusįjį",
+                    "next": "questionhelp1",
+                    "color": "#ffcccb"
+                },
+                {
+                    "id": "question1other",
+                    "text": "Kita",
+                    "next": "questionother1",
+                    "color": "white"
+                }
+            ]
+        },
+        {
+            "id": "questionblood1",
+            "title": "",
+            "question": "Švelniai papurtykite  pečius, Garsiai paklauskite: Kaip jaučiatės?",
+            "grid": "row",
+            "showButton": "true",
+            "parent": "question1",
+            "answers": [
+                {
+                    "id": "questionblood1dontreact",
+                    "text": "Asmuo nereaguoja",
+                    "color": "white",
+                    "buttonColor": "red",
+                    "icon": "closesquareo"
+                },
+                {
+                    "id": "questionblood1react",
+                    "text": "Asmuo sureagavo",
+                    "color": "white",
+                    "buttonColor": "green",
+                    "icon": "checksquareo",
+                    "next": "questionblood1react"
+                }
+            ]
+        },
+        {
+            "id": "questionblood1react",
+            "title": "",
+            "parent": "questionblood1",
+            "question": "Nuraminu, nejudinu, stengiuosi išsiaiškinti, kas atsitiko, stebiu nukentėjusiojo sąmonę ir kvėpavimą",
+            "answers": [
+                
+            ]
+        },
+        {
+            "id": "questionhelp1",
+            "question": "Galite pašalinti pavojų",
+            "answers": [
+                {
+                    "id": "question2Yes",
+                    "text": "Taip",
+                    "color": "green"
+                },
+                {
+                    "id": "question2no",
                     "text": "Ne",
-                    "next": "question2",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "id": "questionothelp1",
+            "question": "Galite pašalinti pavojų1",
+            "answers": [
+                {
+                    "id": "question2Yes",
+                    "text": "Taip",
+                    "color": "green"
+                },
+                {
+                    "id": "question2no",
+                    "text": "Ne",
                     "color": "red"
                 }
             ]
         },
         {
             "id": "question2",
-            "question": "Galite pašalinti pavojų",
+            "question": "Galite pašalinti pavojų2",
             "answers": [
                 {
                     "id": "question2Yes",

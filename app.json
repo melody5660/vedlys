@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mbguide",
-    "slug": "mbguide",
+    "name": "vedlys",
+    "slug": "vedlys",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,16 +19,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dziugas.alkas.vedlys"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dziugas.alkas.vedlys"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e90d27f5-557e-40f9-9324-edf323bac71d"
+      }
     }
   }
 }
