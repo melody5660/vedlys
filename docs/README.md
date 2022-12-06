@@ -1,9 +1,5 @@
 # Documentation
 
-## Technology stack
-
-1. 
-
 ## Context
 
 ![Context](./assets/context.png)
