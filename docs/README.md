@@ -37,7 +37,6 @@
 | Property | Description |
 |-|-|
 | QuestionId | Question Id|
-| Question | Question |
 | Navigation | Navigation object |
 | Previous | If the property is set to true, arrow to the left is displayed |
 | Next | If the property is set to true, arrow to the left is displayed |
