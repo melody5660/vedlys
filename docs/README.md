@@ -1,4 +1,15 @@
-# Documentation
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Architecture](#architecture)
+  - [Context](#context)
+  - [Application sections](#application-sections)
+  - [Data schema](#data-schema)
+- [Guidance](#guidance)
+  - [ID naming convention](#id-naming-convention)
+  - [Text translations](#text-translations)
+
+# Architecture
 
 
 ## Context
@@ -42,3 +53,34 @@
 | Text | Content text |
 | Clickable | Set to true if content is clickable |
 | Parameters | Array of content parameters |
+
+
+# Guidance
+
+## ID naming convention
+
+QuestionId should be generated based on this pattern: SHORTPAGENAME_NR
+
+Example:
+```
+ENVIRONMENT_1
+```
+
+AnswerId or ContentId should be generated based on this pattern: QUESTIONID_SHORTNAME_NR
+
+Example:
+```
+ENVIRONMENT_1_ELECTRICITY_1
+```
+
+## Text translations
+
+The translations to multiple languages will be handled with i18next library: https://react.i18next.com/ .
+The translations will be writting in translation properties files in json format:
+```
+{
+    "ENVIRONMENT_1": "Ar aplinka saugi",
+    "ENVIRONMENT_1_ELECTRICITY_1": "Eletros laidai"
+}
+
+```
