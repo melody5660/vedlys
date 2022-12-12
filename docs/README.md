@@ -36,21 +36,24 @@
 
 | Property | Description |
 |-|-|
-| QuestionId | Question Id|
+| PageId | Page Id|
 | Navigation | Navigation object |
 | Previous | If the property is set to true, arrow to the left is displayed |
+| PreviousId| Previous Id |
+| Color | Color HEX code |
+| PageId | PageId to which the user is redirected when clicking |
+| Type | Type of the previous button |
 | Next | If the property is set to true, arrow to the left is displayed |
-| Answer | Array of possible answers to the question |
-| AnswerId | Answer Id|
-| QuestionId | The Id of the question to which the user is redirected in case the answer is selected |
-| Clickable |  |
-| Color | Answer color code in hex format |
-| Image | Image name which should be displayed |
+| NextId | Next Id |
+| Color | Color HEX code |
+| PageId | PageId to which the user is redirected when clicking |
+| Type | Type of the previous button |
+
+
 | Content (array) |  |
 | ContentId | ContentId |
 | Type | Content type. Possible values TEXT, TIMER |
 | Text | Content text |
-| Clickable | Set to true if content is clickable |
 | Parameters | Array of content parameters |
 
 
@@ -58,14 +61,14 @@
 
 ## ID naming convention
 
-QuestionId should be generated based on this pattern: SHORTPAGENAME_NR
+PageId should be generated based on this pattern: SHORTPAGENAME_NR
 
 Example:
 ```
 ENVIRONMENT_1
 ```
 
-AnswerId or ContentId should be generated based on this pattern: QUESTIONID_SHORTNAME_NR
+NextId or PreviousId or ContentId should be generated based on this pattern: PAGEID_SHORTNAME_NR
 
 Example:
 ```
