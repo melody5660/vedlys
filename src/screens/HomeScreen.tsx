@@ -22,7 +22,7 @@ const HomeScreen = ({ next }: { next: string }) => {
     return (
         <View style={{ flex: 3, alignItems: 'center', justifyContent: 'center' }}>
             <View style={{ flex: 3 }}>
-                <Text>Bendra info apie programėlę</Text>
+                <Text> {t('homeScreen.genericInfo')}</Text>
 
                 <Text>Paprašyti nusistatyti kalbą ir</Text>
 

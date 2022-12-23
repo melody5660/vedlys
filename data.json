@@ -1,138 +1,80 @@
 {
-    "id": "Root",
-    "next": "question1",
-    "text": "",
-    "title": "Pradžia",
-    "items": [
+    "next": "ATTENTIONSCREEN_INFO",
+    "pages": [
         {
-            "id": "question1",
-            "title": "Pradžia",
-            "question": "",
-            "parent": "Root",
-            "answers": [
+            "pageId": "INFO_BLOOD",
+            "parent": "menuScreen",
+            "navigation": {
+                "next": {
+                    "nextId": "INFO_BLOOD_NEXT",
+                    "pageId": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+                    "type": "button"
+                }
+            },
+            "content": [
                 {
-                    "id": "question1blood",
-                    "text": "Pirmiausia stabdau masyvų kraujavimą iš galūnių",
-                    "next": "questionblood1",
-                    "color": "red"
+                    "contentId": "INFO_BLOOD.askHelp",
+                    "type": "text",
+                    "parameters": [
 
+                    ]
                 },
                 {
-                    "id": "question1help",
-                    "text": "pradedu gaivinti nekvėpuojantį nukentėjusįjį",
-                    "next": "questionhelp1",
-                    "color": "#ffcccb"
-                },
-                {
-                    "id": "question1other",
-                    "text": "Kita",
-                    "next": "questionother1",
-                    "color": "white"
+                    "contentId": "INFO_BLOOD.start",
+                    "type": "text",
+                    "parameters": [
+
+                    ]
                 }
             ]
         },
         {
-            "id": "questionblood1",
-            "title": "",
-            "question": "Švelniai papurtykite  pečius, Garsiai paklauskite: Kaip jaučiatės?",
-            "grid": "row",
-            "showButton": "true",
-            "parent": "question1",
-            "answers": [
+            "pageId": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "parent": "INFO_BLOOD",
+            "navigation": {
+                "previous": {
+                    "nextId": "INFO_BLOOD_NEXT",
+                    "pageId": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+                    "type": "button"
+                }
+            },
+            "content": [
                 {
-                    "id": "questionblood1dontreact",
-                    "text": "Asmuo nereaguoja",
-                    "color": "white",
-                    "buttonColor": "red",
-                    "icon": "closesquareo"
+                    "contentId": "INFO_BLOOD_STOP_BLOOD_STEP_1.massiveBlood",
+                    "color": "red",
+                    "type": "button",
+                    "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
                 },
                 {
-                    "id": "questionblood1react",
-                    "text": "Asmuo sureagavo",
-                    "color": "white",
-                    "buttonColor": "green",
-                    "icon": "checksquareo",
-                    "next": "questionblood1react"
+                    "contentId": "INFO_BLOOD_STOP_BLOOD_STEP_1.normalBlood",
+                    "color": "grey",
+                    "type": "button",
+                    "next": ""
                 }
             ]
         },
         {
-            "id": "questionblood1react",
-            "title": "",
-            "parent": "questionblood1",
-            "question": "Nuraminu, nejudinu, stengiuosi išsiaiškinti, kas atsitiko, stebiu nukentėjusiojo sąmonę ir kvėpavimą",
-            "answers": [
-                
+            "pageId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD",
+            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "content": [
+                {
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.stopWithHand",
+                    "color": "red",
+                    "type": "button",
+                    "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+                },
+                {
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.countdown",
+                    "color": "red",
+                    "type": "countdown"
+                }
+
             ]
         },
         {
-            "id": "questionhelp1",
-            "question": "Galite pašalinti pavojų",
-            "answers": [
-                {
-                    "id": "question2Yes",
-                    "text": "Taip",
-                    "color": "green"
-                },
-                {
-                    "id": "question2no",
-                    "text": "Ne",
-                    "color": "red"
-                }
-            ]
-        },
-        {
-            "id": "questionothelp1",
-            "question": "Galite pašalinti pavojų1",
-            "answers": [
-                {
-                    "id": "question2Yes",
-                    "text": "Taip",
-                    "color": "green"
-                },
-                {
-                    "id": "question2no",
-                    "text": "Ne",
-                    "color": "red"
-                }
-            ]
-        },
-        {
-            "id": "question2",
-            "question": "Galite pašalinti pavojų2",
-            "answers": [
-                {
-                    "id": "question2Yes",
-                    "text": "Taip",
-                    "color": "green"
-                },
-                {
-                    "id": "question2no",
-                    "text": "Ne",
-                    "color": "red"
-                }
-            ]
-        },
-        {
-            "id": "question3",
-            "question": "Pasirinkti situaciją",
-            "answers": [
-                {
-                    "id": "question31",
-                    "text": "Žmogus užspringo",
-                    "color": "gray"
-                },
-                {
-                    "id": "question32",
-                    "text": "Nukentėjo vaikas",
-                    "color": "yellow"
-                },
-                {
-                    "id": "question33",
-                    "text": "Sužeistas asmuo",
-                    "color": "pink"
-                }
-            ]
-        },
+            "pageId": "STOP_BLOOD_STEP_1_NORMAL_BLOOD",
+            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1"
+        }
     ]
+
 }
