@@ -1,63 +1,80 @@
 {
-    "id": "Root",
-    "next": "question1",
-    "text": "Pradžia",
-    "items": [
+    "next": "ATTENTIONSCREEN_INFO",
+    "pages": [
         {
-            "id": "question1",
-            "question": "Jūs ir auka saugūs",
-            "answers": [
+            "pageId": "INFO_BLOOD",
+            "parent": "menuScreen",
+            "navigation": {
+                "next": {
+                    "nextId": "INFO_BLOOD_NEXT",
+                    "pageId": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+                    "type": "button"
+                }
+            },
+            "content": [
                 {
-                    "id": "question1Yes",
-                    "text": "Taip",
-                    "next": "question3",
-                    "color": "green"
+                    "contentId": "INFO_BLOOD.askHelp",
+                    "type": "text",
+                    "parameters": [
 
+                    ]
                 },
                 {
-                    "id": "question1no",
-                    "text": "Ne",
-                    "next": "question2",
-                    "color": "red"
+                    "contentId": "INFO_BLOOD.start",
+                    "type": "text",
+                    "parameters": [
+
+                    ]
                 }
             ]
         },
         {
-            "id": "question2",
-            "question": "Galite pašalinti pavojų",
-            "answers": [
+            "pageId": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "parent": "INFO_BLOOD",
+            "navigation": {
+                "previous": {
+                    "nextId": "INFO_BLOOD_NEXT",
+                    "pageId": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+                    "type": "button"
+                }
+            },
+            "content": [
                 {
-                    "id": "question2Yes",
-                    "text": "Taip",
-                    "color": "green"
+                    "contentId": "INFO_BLOOD_STOP_BLOOD_STEP_1.massiveBlood",
+                    "color": "red",
+                    "type": "button",
+                    "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
                 },
                 {
-                    "id": "question2no",
-                    "text": "Ne",
-                    "color": "red"
+                    "contentId": "INFO_BLOOD_STOP_BLOOD_STEP_1.normalBlood",
+                    "color": "grey",
+                    "type": "button",
+                    "next": ""
                 }
             ]
         },
         {
-            "id": "question3",
-            "question": "Pasirinkti situaciją",
-            "answers": [
+            "pageId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD",
+            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "content": [
                 {
-                    "id": "question31",
-                    "text": "Žmogus užspringo",
-                    "color": "gray"
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.stopWithHand",
+                    "color": "red",
+                    "type": "button",
+                    "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
                 },
                 {
-                    "id": "question32",
-                    "text": "Nukentėjo vaikas",
-                    "color": "yellow"
-                },
-                {
-                    "id": "question33",
-                    "text": "Sužeistas asmuo",
-                    "color": "pink"
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.countdown",
+                    "color": "red",
+                    "type": "countdown"
                 }
+
             ]
         },
+        {
+            "pageId": "STOP_BLOOD_STEP_1_NORMAL_BLOOD",
+            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1"
+        }
     ]
+
 }

@@ -14,13 +14,18 @@ import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
 import HomeScreen from '../screens/HomeScreen';
 import QuestionScreen from '../screens/QuestionScreen';
+import AttentionScreen from '../screens/AttentionScreen';
 import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
-import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
+import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../../types';
 import LinkingConfiguration from './LinkingConfiguration';
-import menuList from '../data.json';
+import menuList from '../../data.json';
+import { useTranslation } from 'react-i18next';
+import MenuScreen from '../screens/MenuScreen';
+import PageScreen from '../screens/PageScreen';
+import FirstScreen from '../screens/FirstScreen';
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
@@ -40,16 +45,28 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 //      <Stack.Screen name="Root" component={HomeScreen} options={{ headerShown: false }} />
 
 function RootNavigator() {
+  const { t } = useTranslation();
+console.log('menulist', menuList.pages);
   return (
     <Stack.Navigator>
-      <Stack.Screen key={menuList.id} name="Root" >
-        {(props) => <HomeScreen next={menuList.next} />}
+      <Stack.Screen key="homeScreen" name="Root" options={{title: `${t('title')}`}} >
+        {(props) => <HomeScreen next="firstScreen" />}
       </Stack.Screen>
-      <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
+      <Stack.Screen key="firstScreen" name="firstScreen" options={{title: `${t('title')}`}} >
+        {(props) => <FirstScreen />}
+      </Stack.Screen>
+      <Stack.Screen key="menuScreen" name="menuScreen" options={{title: `${t('menuScreen.title')}`}}>
+        {(props) => <MenuScreen next="attentionScreen" />}
+      </Stack.Screen>
+      <Stack.Screen key="attentionScreen" name="attentionScreen" options={{title: `${t('attentionScreen.title')}`}}>
+        {(props) => <AttentionScreen next={menuList.next} />}
+      </Stack.Screen>
+      <Stack.Screen name="NotFound" key="NOTFOUND" component={NotFoundScreen} options={{ title: 'Oops!' }} />
       {
-        menuList && menuList.items.map((element: any) => <Stack.Screen key={element.id} name={element.id}>
-          {(props) => <QuestionScreen element={element} />}
+        menuList && menuList.pages.map((element: any) => <Stack.Screen key={element.pageId} name={element.pageId} options={{headerLeft: () => <></>, title: element.title}}>
+          {(props) => <PageScreen element={element} />}
         </Stack.Screen>)
+        
       }
     </Stack.Navigator>
   );
