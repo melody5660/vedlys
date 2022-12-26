@@ -26,6 +26,7 @@ import { useTranslation } from 'react-i18next';
 import MenuScreen from '../screens/MenuScreen';
 import PageScreen from '../screens/PageScreen';
 import FirstScreen from '../screens/FirstScreen';
+import MapScreen from '../screens/MapScreen';
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
@@ -60,6 +61,9 @@ console.log('menulist', menuList.pages);
       </Stack.Screen>
       <Stack.Screen key="attentionScreen" name="attentionScreen" options={{title: `${t('attentionScreen.title')}`}}>
         {(props) => <AttentionScreen next={menuList.next} />}
+      </Stack.Screen>
+      <Stack.Screen key="mapScreen" name="mapScreen" options={{title: `${t('mapScreen.title')}`}}>
+        {(props) => <MapScreen />}
       </Stack.Screen>
       <Stack.Screen name="NotFound" key="NOTFOUND" component={NotFoundScreen} options={{ title: 'Oops!' }} />
       {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, Image, TouchableOpacity } from 'react-native';
 import { useTranslation } from 'react-i18next';
 import { AntDesign } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
@@ -12,7 +12,9 @@ const FirstScreen = () => {
 
     const { t, i18n } = useTranslation();
 
-
+    const handlePress = () => {
+        navigation.navigate('mapScreen');
+    }
 
     return (
         <View style={{ flex: 6, alignItems: 'center', justifyContent: 'center', flexDirection: "column" }}>
@@ -67,7 +69,9 @@ const FirstScreen = () => {
                     <AntDesign name="arrowleft" size={100} color="black" onPress={() => navigation.navigate("menuScreen", {})} />
                 </View>
                 <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                    <Image source={require('../../assets/images/aed.png')} style={{ width: 100, height: 100 }} />
+                    <TouchableOpacity onPress={handlePress}>
+                        <Image source={require('../../assets/images/aed.png')} style={{ width: 100, height: 100 }} />
+                    </TouchableOpacity>
                 </View>
             </View>
         </View>
