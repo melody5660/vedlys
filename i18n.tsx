@@ -41,6 +41,7 @@ const resources = {
 
 i18next.use(RNLanguageDetector) // Add the language detector
   .use(initReactI18next).init({
+    compatibilityJSON: 'v3',
     resources,
     //language to use if translations in user language are not available
     fallbackLng: "en",

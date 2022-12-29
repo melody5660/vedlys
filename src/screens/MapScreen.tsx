@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Text, View, Dimensions, ScrollView, StyleSheet } from 'react-native';
-import MapView, { UrlTile } from 'react-native-maps';
+import MapView, { UrlTile, LocalTile, Marker } from 'react-native-maps';
+import markers from '../../markers.json';
 
 const { width, height } = Dimensions.get('window');
 const SCREEN_WIDTH = width;
@@ -28,13 +29,38 @@ const styles = StyleSheet.create({
 
 const MapScreen = () => {
     console.log("map screen start");
-    const [urlTemplate, setUrlTemplate] = useState("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png");
+    console.log("markers", markers);
+    const [urlTemplate, setUrlTemplate] = useState("http://c.tile.openstreetmap.org/{z}/{x}/{y}.png");
     const [region, setRegion] = useState({
         latitude: LATITUDE,
         longitude: LONGITUDE,
         latitudeDelta: LATITUDE_DELTA,
         longitudeDelta: LONGITUDE_DELTA,
     });
+
+    const calculateDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {
+
+        const toRadian = (n: number) => (n * Math.PI) / 180
+
+        /*let lat2 = lattitude2;
+        let lon2 = longittude2;
+        let lat1 = lattitude1;
+        let lon1 = longittude1;*/
+
+        console.log(lat1, lon1 + "===" + lat2, lon2)
+        let R = 6371  // km
+        let x1 = lat2 - lat1
+        let dLat = toRadian(x1)
+        let x2 = lon2 - lon1
+        let dLon = toRadian(x2)
+        let a =
+            Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(toRadian(lat1)) * Math.cos(toRadian(lat2)) * Math.sin(dLon / 2) * Math.sin(dLon / 2)
+        let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+        let d = R * c
+        console.log("distance==?", d)
+        return d
+    }
 
     return (
 
@@ -44,8 +70,9 @@ const MapScreen = () => {
                 contentContainerStyle={styles.scrollview}
             >
                 <MapView
+                    provider={undefined}
                     followsUserLocation={true}
-                    showsUserLocation={true}
+                    showsUserLocation={false}
                     style={styles.map}
                     scrollEnabled={true}
                     zoomEnabled={true}
@@ -70,9 +97,16 @@ const MapScreen = () => {
                          */
                         flipY={false}
 
-                        
-                    />
 
+                    />
+                    {markers.items.map((marker: any, index: any) => (
+                        <Marker
+                            key={index}
+                            coordinate={{ latitude: parseFloat(marker.lat), longitude: parseFloat(marker.lng) }}
+                            title={marker.title}
+                            description={marker.description}
+                        />
+                    ))}
                 </MapView>
             </ScrollView>
         </View>

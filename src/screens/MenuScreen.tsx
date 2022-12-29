@@ -29,7 +29,7 @@ const MenuScreen = ({ element }: { element: any }) => {
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Button
                     title={`${t('menuScreen.enliven')}`}
-                    onPress={() => { navigation.navigate("INFO_BLOOD", {}) }}
+                    onPress={() => { navigation.navigate("STOP_BLOOD_STEP_START_REVIVE", {}) }}
                 />
                 
             </View>

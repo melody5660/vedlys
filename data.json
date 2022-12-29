@@ -49,19 +49,38 @@
                     "contentId": "INFO_BLOOD_STOP_BLOOD_STEP_1.normalBlood",
                     "color": "grey",
                     "type": "button",
-                    "next": ""
+                    "next": "STOP_BLOOD_STEP_START_REVIVE"
                 }
             ]
         },
         {
             "pageId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD",
             "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "navigation": {
+                "next": {
+                    "nextId": "MASSIVE_BLOOD_TOURNIQUET",
+                    "pageId": "MASSIVE_BLOOD_TOURNIQUET",
+                    "type": "button",
+                    "color": "green"
+                }
+            },
             "content": [
                 {
                     "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.stopWithHand",
                     "color": "red",
                     "type": "button",
                     "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+                },
+                {
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.stopWithBandage",
+                    "color": "red",
+                    "type": "button",
+                    "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+                },
+                {
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.instruction1",
+                    "color": "red",
+                    "type": "text"
                 },
                 {
                     "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.countdown",
@@ -72,8 +91,68 @@
             ]
         },
         {
-            "pageId": "STOP_BLOOD_STEP_1_NORMAL_BLOOD",
-            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1"
+            "pageId": "MASSIVE_BLOOD_STOP_WITH_HAND",
+            "parent": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+
+        },
+        {
+            "pageId": "MASSIVE_BLOOD_STOP_WITH_BANDAGE",
+            "parent": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+        },
+        {
+            "pageId": "MASSIVE_BLOOD_TOURNIQUET",
+            "parent": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD",
+            "navigation": {
+                "next": {
+                    "nextId": "INFO_BLOOD_NEXT",
+                    "type": "button",
+                    "color": "green"
+                }
+            },
+            "content": [
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET.instruction1",
+                    "color": "red",
+                    "type": "text"
+                },
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET.howToPut",
+                    "color": "red",
+                    "type": "button",
+                    "next": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_PUT"
+                },
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET.howToMake",
+                    "color": "red",
+                    "type": "button",
+                    "next": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE"
+                }
+            ]
+        },
+        {
+            "pageId": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE",
+            "parent": "MASSIVE_BLOOD_TOURNIQUET",
+            "content": [
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE.instruction1",
+                    "color": "red",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "STOP_BLOOD_STEP_START_REVIVE",
+            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "content": [
+                {
+                    "contentId": "STOP_BLOOD_STEP_START_REVIVE.instruction1",
+                    "type": "text"
+                },
+                {
+                    "contentId": "STOP_BLOOD_STEP_START_REVIVE.countDown",
+                    "type": "countdown"
+                }
+            ]
         }
     ]
 

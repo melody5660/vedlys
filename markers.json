@@ -1,0 +1,83 @@
+{
+    "items": [
+        {
+            "_id": "63aaf5e3e6680940377335be",
+            "title": "Savivaldybės administracija",
+            "description": "I aukšto patalpos",
+            "lat": "55.8173071",
+            "lng": "21.540131",
+            "fileName": [],
+            "type": "DEFIBRILLATOR",
+            "createTimestamp": "2022-12-27T13:40:51.458Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63aaf5e3e6680940377335bf",
+            "title": "Savivaldybės administracija 1",
+            "description": "I aukšto patalpos",
+            "lat": "57.8473071",
+            "lng": "25.540131",
+            "fileName": [],
+            "type": "DEFIBRILLATOR",
+            "createTimestamp": "2022-12-27T13:40:51.458Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63a4841687e8eb60efeeeab9",
+            "title": "wertwert",
+            "description": "wertwertwert",
+            "lat": 55.80761135733373,
+            "lng": 23.851318359375004,
+            "fileName": [
+                "img1671726102784105972451.png"
+            ],
+            "type": "BOMBSHELTER",
+            "createTimestamp": "2022-12-22T16:21:42.823Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63a4837de6680940377335bc",
+            "title": "Savivaldybės administracija",
+            "description": "I aukšto patalpos",
+            "lat": "55.8173071",
+            "lng": "21.540131",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2022-12-22T16:19:09.250Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63a4837de6680940377335bd",
+            "title": "Savivaldybės administracija 1",
+            "description": "I aukšto patalpos",
+            "lat": "57.8473071",
+            "lng": "25.540131",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2022-12-22T16:19:09.250Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63a184501ee339235f8524c6",
+            "title": "Savivaldybės administracija",
+            "description": "I aukšto patalpos",
+            "lat": "55.17",
+            "lng": "23.57",
+            "fileName": [],
+            "type": "DEFIBRILLATOR",
+            "createTimestamp": "2022-12-20T09:45:52.360Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63a184501ee339235f8524c7",
+            "title": "Savivaldybės administracija 1",
+            "description": "I aukšto patalpos",
+            "lat": "57.8073071",
+            "lng": "25.540131",
+            "fileName": [],
+            "type": "DEFIBRILLATOR",
+            "createTimestamp": "2022-12-20T09:45:52.360Z",
+            "status": "APPROVED"
+        }
+    ]
+}

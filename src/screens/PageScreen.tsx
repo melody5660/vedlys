@@ -4,6 +4,8 @@ import { Button, Card } from '@rneui/themed';
 import { AntDesign } from '@expo/vector-icons';
 import { t } from 'i18next';
 import CountDown from 'react-native-countdown-component';
+import { useState, useEffect } from 'react';
+import { CountdownCircleTimer } from 'react-native-countdown-circle-timer';
 
 
 
@@ -11,6 +13,13 @@ const PageScreen = ({ element }: { element: any }) => {
     const navigation = useNavigation();
     console.log('pagescreen', element);
     console.log(element.content);
+    const [counter, setCounter] = useState(10);
+    const [isPlaying, setIsPlaying] = useState(true)
+
+    useEffect(() => {
+        setCounter(10);
+    }, []);
+
     const buttonClickedHandler = (e) => {
         console.log('You have been clicked a button!:', e);
         // do something
@@ -48,15 +57,29 @@ const PageScreen = ({ element }: { element: any }) => {
                             />
                         }
                         {
-                            e.type === "countdown" && <CountDown
-                                until={10}
-                                size={30}
-                                onFinish={() => alert('Finished')}
+                            e.type === "countdown1" && <CountDown
+                                until={counter}
+                                size={80}
+                                onFinish={() => { setCounter(10); console.log('c', counter); }}
+                                //onFinish={() => alert('Finished')}
                                 digitStyle={{ backgroundColor: '#FFF' }}
                                 digitTxtStyle={{ color: '#1CC625' }}
                                 timeToShow={['S']}
                                 timeLabels={{ s: 'SS' }}
                             />
+                        }
+                        {
+                            e.type === "countdown" &&
+                            <CountdownCircleTimer
+                                key="countdownCircle"
+                                isPlaying
+                                duration={7}
+                                colors={['#004777', '#F7B801', '#A30000', '#A30000']}
+                                onComplete={() => ({ shouldRepeat: true, delay: 2 })}
+                                colorsTime={[7, 5, 2, 0]}
+                            >
+                                {({ remainingTime }) => <Text>{remainingTime}</Text>}
+                            </CountdownCircleTimer>
                         }
                     </View>)
                 }
