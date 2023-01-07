@@ -143,6 +143,18 @@
         {
             "pageId": "STOP_BLOOD_STEP_START_REVIVE",
             "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "navigation": {
+                "next": {
+                    "nextId": "START_REVIVE_BREATHING",
+                    "type": "button",
+                    "color": "green"
+                },
+                "previous": {
+                    "nextId": "START_REVIVE_NOT_BREATHING",
+                    "type": "button",
+                    "color": "red"
+                }
+            },
             "content": [
                 {
                     "contentId": "STOP_BLOOD_STEP_START_REVIVE.instruction1",
@@ -151,6 +163,28 @@
                 {
                     "contentId": "STOP_BLOOD_STEP_START_REVIVE.countDown",
                     "type": "countdown"
+                }
+            ]
+        },
+        {
+            "pageId": "START_REVIVE_BREATHING",
+            "parent": "MASSIVE_BLOOD_TOURNIQUET",
+            "content": [
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE.instruction1",
+                    "color": "red",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "START_REVIVE_NOT_BREATHING",
+            "parent": "MASSIVE_BLOOD_TOURNIQUET",
+            "content": [
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE.instruction1",
+                    "color": "red",
+                    "type": "text"
                 }
             ]
         }

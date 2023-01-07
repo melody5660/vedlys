@@ -73,12 +73,12 @@ const PageScreen = ({ element }: { element: any }) => {
                             <CountdownCircleTimer
                                 key="countdownCircle"
                                 isPlaying
-                                duration={7}
+                                duration={counter}
                                 colors={['#004777', '#F7B801', '#A30000', '#A30000']}
                                 onComplete={() => ({ shouldRepeat: true, delay: 2 })}
                                 colorsTime={[7, 5, 2, 0]}
                             >
-                                {({ remainingTime }) => <Text>{remainingTime}</Text>}
+                                {({ remainingTime }) => <Text style={{fontSize: 60}}>{remainingTime}</Text>}
                             </CountdownCircleTimer>
                         }
                     </View>)
