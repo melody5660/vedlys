@@ -9,6 +9,8 @@
 ## 2. Install instructions
 
 Install expo: https://docs.expo.dev/get-started/installation/
+and
+Android Studio Emulator 
 
 ## 3. Install NPM
 CMD install npm
