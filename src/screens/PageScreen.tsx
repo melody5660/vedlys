@@ -1,8 +1,10 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { Button, Card } from '@rneui/themed';
+//import { Button, Card } from '@rneui/themed';
+import { Button } from "@react-native-material/core";
+
 import { AntDesign } from '@expo/vector-icons';
-import { t } from 'i18next';
+import i18n from '../../i18n';
 import CountDown from 'react-native-countdown-component';
 import { useState, useEffect } from 'react';
 import { CountdownCircleTimer } from 'react-native-countdown-circle-timer';
@@ -25,19 +27,9 @@ const PageScreen = ({ element }: { element: any }) => {
         // do something
         //navigation.navigate(next, {});
     };
-    return (
-        <>
-            <View style={{ flex: 3, alignItems: 'center', justifyContent: 'center', flexDirection: element.grid ? element.grid : 'column' }}>
 
-                {
-                    element.content.map((e: any) => <View key={e.contentId}>
-                        {
-                            e.type === "text" && <Text>{t([`${e.contentId}`])}</Text>
-                        }
-                        {
-                            e.type === "button" && <Button
-                                title={t([`${e.contentId}`])}
-                                buttonStyle={{
+    /*
+buttonStyle={{
                                     backgroundColor: e.color ? e.color : '#3BB143',
                                     borderWidth: 2,
                                     height: 100,
@@ -52,6 +44,23 @@ const PageScreen = ({ element }: { element: any }) => {
                                     marginVertical: 10,
                                 }}
                                 titleStyle={{ fontWeight: 'bold', color: 'black' }}
+
+    */
+    return (
+        <>
+            <View style={{ flex: 3, alignItems: 'center', justifyContent: 'center', flexDirection: element.grid ? element.grid : 'column' }}>
+
+                {
+                    element.content.map((e: any) => <View key={e.contentId}>
+                        {
+                            e.type === "text" && <Text>{i18n.t([`${e.contentId}`])}</Text>
+                        }
+                        {
+                            e.type === "button" && <Button
+                                title={i18n.t([`${e.contentId}`])}
+                                color={`${e.color ? e.color : '#3BB143'}`}
+                                style={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}
+                                contentContainerStyle={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}
                                 onPress={() => navigation.navigate(e.next, {})}
 
                             />
@@ -129,13 +138,8 @@ const PageScreen = ({ element }: { element: any }) => {
                         )}
                 </View>
 */
-            }
-            <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
-                <AntDesign name="arrowleft" size={100} color="black" onPress={() => { console.log('parent:', element.parent); navigation.navigate(element.parent, {}) }} />
-                {
-                    element.navigation?.next?.type === "button" && <Button
-                        title={t([`${element.pageId}.next.title`])}
-                        buttonStyle={{
+/*
+ buttonStyle={{
                             backgroundColor: '#3BB143',
                             borderWidth: 2,
                             height: 100,
@@ -149,6 +153,16 @@ const PageScreen = ({ element }: { element: any }) => {
                             marginHorizontal: 20,
                             marginVertical: 10,
                         }}
+*/
+            }
+            <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
+                <AntDesign name="arrowleft" size={100} color="black" onPress={() => { console.log('parent:', element.parent); navigation.navigate(element.parent, {}) }} />
+                {
+                    element.navigation?.next?.type === "button" && <Button
+                        title={i18n.t([`${element.pageId}.next.title`])}
+                        color="#3BB143"
+                        style={{maxHeight: 100, height: 100, maxWidth: 250, width: 250}}
+                        contentContainerStyle={{maxHeight: 100, height: 100, maxWidth: 250, width: 250}}
                         titleStyle={{ fontWeight: 'bold', color: 'black' }}
                         onPress={() => navigation.navigate(element.navigation.next.pageId, {})}
 

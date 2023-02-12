@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import { Text, View, Dimensions, ScrollView, StyleSheet } from 'react-native';
 import MapView, { UrlTile, LocalTile, Marker } from 'react-native-maps';
+
 import markers from '../../markers.json';
 
 const { width, height } = Dimensions.get('window');
 const SCREEN_WIDTH = width;
 const ASPECT_RATIO = width / height;
-const LATITUDE = 55.17;
-const LONGITUDE = 23.57;
-const LATITUDE_DELTA = 0.0922;
+const LATITUDE = 54.689691;
+const LONGITUDE = 25.272889;
+const LATITUDE_DELTA = 0.0222;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 const styles = StyleSheet.create({
@@ -29,7 +30,12 @@ const styles = StyleSheet.create({
 
 const MapScreen = () => {
     console.log("map screen start");
-    console.log("markers", markers);
+    const markersList = new Array();
+    markers.items.forEach((a) => {
+        if (a.lat !== '' && a.lng !== '') {
+            markersList.push(a);
+        }
+    });
     const [urlTemplate, setUrlTemplate] = useState("http://c.tile.openstreetmap.org/{z}/{x}/{y}.png");
     const [region, setRegion] = useState({
         latitude: LATITUDE,
@@ -47,7 +53,6 @@ const MapScreen = () => {
         let lat1 = lattitude1;
         let lon1 = longittude1;*/
 
-        console.log(lat1, lon1 + "===" + lat2, lon2)
         let R = 6371  // km
         let x1 = lat2 - lat1
         let dLat = toRadian(x1)
@@ -99,17 +104,19 @@ const MapScreen = () => {
 
 
                     />
-                    {markers.items.map((marker: any, index: any) => (
+                    {markersList.map((marker: any, index: any) => (
                         <Marker
                             key={index}
                             coordinate={{ latitude: parseFloat(marker.lat), longitude: parseFloat(marker.lng) }}
                             title={marker.title}
                             description={marker.description}
+
                         />
+                    
                     ))}
-                </MapView>
-            </ScrollView>
-        </View>
+            </MapView>
+        </ScrollView>
+        </View >
 
 
     );
