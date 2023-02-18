@@ -22,28 +22,42 @@ const MenuScreen = () => {
                 <Button
                     title={`${i18n.t('menuScreen.stopBlood')}`}
                     onPress={() => { navigation.navigate("INFO_BLOOD", {}) }}
-                    style={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}
-                    contentContainerStyle={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}                />
+                    style={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}
+                    contentContainerStyle={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}                />
                 
             </View>
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Button
                     title={`${i18n.t('menuScreen.enliven')}`}
                     onPress={() => { navigation.navigate("STOP_BLOOD_STEP_START_REVIVE", {}) }}
-                    style={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}
-                    contentContainerStyle={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}                />
+                    style={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}
+                    contentContainerStyle={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}                />
                 
             </View>
-            {/*
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', flexDirection: 'row' }}>
-                <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                    <AntDesign name="arrowleft" size={100} color="black" onPress={() => navigation.navigate("Root", {})} />
-                </View>
-                <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                    <AntDesign name="arrowright" size={100} color="black" onPress={buttonClickedHandler} />
-                </View>
+            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <Button
+                    title={`${i18n.t('menuScreen.choke')}`}
+                    onPress={() => { navigation.navigate("STOP_CHOKE", {}) }}
+                    style={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}
+                    contentContainerStyle={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}                />
+                
             </View>
-            */}
+            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <Button
+                    title={`${i18n.t('menuScreen.stroke')}`}
+                    onPress={() => { navigation.navigate("STOP_STROKE", {}) }}
+                    style={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}
+                    contentContainerStyle={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}                />
+                
+            </View>
+            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+            <Button
+                    title={`${i18n.t('menuScreen.other')}`}
+                    onPress={() => { navigation.navigate("STOP_OTHER", {}) }}
+                    style={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}
+                    contentContainerStyle={{maxHeight: 80, height: 80, maxWidth: 350, width: 350}}                />
+                
+            </View>
 
         </View>
 

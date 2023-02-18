@@ -1,7 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Text, View, Dimensions, ScrollView, StyleSheet } from 'react-native';
 import MapView, { UrlTile, LocalTile, Marker } from 'react-native-maps';
-
+import MarkersList from '../components/markers.component';
+import * as Location from "expo-location";
+import { getDistance } from 'geolib';
+import { FontAwesome } from '@expo/vector-icons'; 
 import markers from '../../markers.json';
 
 const { width, height } = Dimensions.get('window');
@@ -9,7 +12,7 @@ const SCREEN_WIDTH = width;
 const ASPECT_RATIO = width / height;
 const LATITUDE = 54.689691;
 const LONGITUDE = 25.272889;
-const LATITUDE_DELTA = 0.0222;
+const LATITUDE_DELTA = 0.2222;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 const styles = StyleSheet.create({
@@ -23,19 +26,45 @@ const styles = StyleSheet.create({
     },
     map: {
         width: SCREEN_WIDTH,
-        height: 500,
+        height: height * 0.6
     },
+    view: {
+        alignItems: 'flex-start',
+        width: SCREEN_WIDTH
+    }
 });
 
 
+
 const MapScreen = () => {
-    console.log("map screen start");
-    const markersList = new Array();
-    markers.items.forEach((a) => {
-        if (a.lat !== '' && a.lng !== '') {
-            markersList.push(a);
-        }
-    });
+    console.log("map screen start: ", markers.items.length);
+    const [markerFlatList, setMarkerFlatList] = useState([]);
+    const [markersList, setMarkersList] = useState(new Array());
+
+    useEffect(() => {
+        (async () => {
+          console.log('start');
+          let { status } = await Location.requestForegroundPermissionsAsync();
+          if (status !== 'granted') {
+            console.log('Permission to access location was denied');
+            return;
+          }
+    
+          let location = await Location.getCurrentPositionAsync({});
+          console.log('location: ', location);
+          const mList = new Array();
+          markers.items.forEach((a) => {
+              if (a.lat !== '' && a.lng !== '') {
+                  mList.push(a);
+              }
+          });
+  
+          setMarkersList(mList);
+          getWithinDistance(mList, location);
+        })();
+      }, []);
+
+
     const [urlTemplate, setUrlTemplate] = useState("http://c.tile.openstreetmap.org/{z}/{x}/{y}.png");
     const [region, setRegion] = useState({
         latitude: LATITUDE,
@@ -44,46 +73,54 @@ const MapScreen = () => {
         longitudeDelta: LONGITUDE_DELTA,
     });
 
-    const calculateDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {
+    const getWithinDistance = (markersList: any, location: any) => {
+        var selectedMarker = [];
+        console.log(region);
+        var lat1 = location.coords.latitude;
+        var lon1 = location.coords.longitude;
 
-        const toRadian = (n: number) => (n * Math.PI) / 180
+        for (var i = 0; i <= markersList.length; i++) {
+            var lat2 = markersList[i]?.lat;
+            var lon2 = markersList[i]?.lng;
+            if (lat2 && lon2) {
+                
+                const d = getDistance(
+                    {
+                        lng: lon1,
+                        lat: lat1
+                    }, {
+                    lng: lon2,
+                    lat: lat2
+                });
+                if (d <= 6000) {
+                    markersList[i].distance = Math.round(d / 100) / 10;
 
-        /*let lat2 = lattitude2;
-        let lon2 = longittude2;
-        let lat1 = lattitude1;
-        let lon1 = longittude1;*/
-
-        let R = 6371  // km
-        let x1 = lat2 - lat1
-        let dLat = toRadian(x1)
-        let x2 = lon2 - lon1
-        let dLon = toRadian(x2)
-        let a =
-            Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-            Math.cos(toRadian(lat1)) * Math.cos(toRadian(lat2)) * Math.sin(dLon / 2) * Math.sin(dLon / 2)
-        let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-        let d = R * c
-        console.log("distance==?", d)
-        return d
+                    selectedMarker.push(markersList[i]);
+                }
+            }
+        }
+        selectedMarker.sort((a,b) => a.distance - b.distance);
+        setMarkerFlatList(selectedMarker)
     }
+
 
     return (
 
         <View style={styles.container}>
-            <ScrollView
+            <View
                 style={StyleSheet.absoluteFill}
-                contentContainerStyle={styles.scrollview}
             >
                 <MapView
                     provider={undefined}
-                    followsUserLocation={true}
-                    showsUserLocation={false}
+                    followsUserLocation={false}
+                    showsUserLocation={true}
                     style={styles.map}
                     scrollEnabled={true}
                     zoomEnabled={true}
                     pitchEnabled={true}
                     rotateEnabled={true}
                     initialRegion={region}
+
                 >
                     <UrlTile
                         /**
@@ -104,18 +141,21 @@ const MapScreen = () => {
 
 
                     />
-                    {markersList.map((marker: any, index: any) => (
+                    {markerFlatList.map((marker: any, index: any) => (
                         <Marker
                             key={index}
                             coordinate={{ latitude: parseFloat(marker.lat), longitude: parseFloat(marker.lng) }}
                             title={marker.title}
                             description={marker.description}
+                        >
+                            <FontAwesome name="heartbeat" size={24} color="green" />
+                        </Marker>
 
-                        />
-                    
                     ))}
-            </MapView>
-        </ScrollView>
+                </MapView>
+                
+                    <MarkersList markersList={markerFlatList} />
+            </View>
         </View >
 
 

@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 //import { Button, Card } from '@rneui/themed';
-import { Button } from "@react-native-material/core";
+import { Button, Box } from "@react-native-material/core";
 
 import { AntDesign } from '@expo/vector-icons';
 import i18n from '../../i18n';
@@ -53,15 +53,43 @@ buttonStyle={{
                 {
                     element.content.map((e: any) => <View key={e.contentId}>
                         {
-                            e.type === "text" && <Text>{i18n.t([`${e.contentId}`])}</Text>
+                            e.type === "text" && <View style={{ margin: 10, borderWidth: 1 }}><Text>{i18n.t([`${e.contentId}`])}</Text></View>
+                        }
+
+                        {
+                            e.type === "box" && <Button
+                                title={i18n.t([`${e.contentId}`])}
+                                color={`${e.color ? e.color : '#3BB143'}`}
+                                titleStyle={{
+                                    fontWeight: 'normal', color: 'black',
+                                    textTransform: 'none', alignContent: 'stretch'
+                                }}
+
+                                style={{
+                                    maxHeight: e.height ? e.height : 100,
+                                    height: e.height ? e.height : 100,
+                                    maxWidth: 350, width: 350,
+                                    margin: e.margin ? e.margin : 0
+                                }}
+                                contentContainerStyle={{
+                                    maxHeight: e.height ? e.height : 100,
+                                    height: e.height ? e.height : 100, maxWidth: 350, width: 350
+                                }}
+                            />
                         }
                         {
                             e.type === "button" && <Button
                                 title={i18n.t([`${e.contentId}`])}
                                 color={`${e.color ? e.color : '#3BB143'}`}
-                                style={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}
-                                contentContainerStyle={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}
+                                style={{
+                                    maxHeight: e.height ? e.height : 100,
+                                    height: e.height ? e.height : 100,
+                                    maxWidth: 350, width: 350,
+                                    margin: e.margin ? e.margin : 0
+                                }}
+                                contentContainerStyle={{ maxHeight: e.height ? e.height : 100, height: e.height ? e.height : 100, maxWidth: 350, width: 350 }}
                                 onPress={() => navigation.navigate(e.next, {})}
+                                titleStyle={{ fontWeight: 'normal', textTransform: 'none', alignContent: 'stretch' }}
 
                             />
                         }
@@ -87,7 +115,7 @@ buttonStyle={{
                                 onComplete={() => ({ shouldRepeat: true, delay: 2 })}
                                 colorsTime={[7, 5, 2, 0]}
                             >
-                                {({ remainingTime }) => <Text style={{fontSize: 60}}>{remainingTime}</Text>}
+                                {({ remainingTime }) => <Text style={{ fontSize: 60 }}>{remainingTime}</Text>}
                             </CountdownCircleTimer>
                         }
                     </View>)
@@ -138,31 +166,32 @@ buttonStyle={{
                         )}
                 </View>
 */
-/*
- buttonStyle={{
-                            backgroundColor: '#3BB143',
-                            borderWidth: 2,
-                            height: 100,
-                            width: 200,
-                            borderColor: 'black',
-                            borderRadius: 30,
-                        }}
-                        containerStyle={{
-                            //width: 130,
-                            minWidth: 130,
-                            marginHorizontal: 20,
-                            marginVertical: 10,
-                        }}
-*/
+                /*
+                 buttonStyle={{
+                                            backgroundColor: '#3BB143',
+                                            borderWidth: 2,
+                                            height: 100,
+                                            width: 200,
+                                            borderColor: 'black',
+                                            borderRadius: 30,
+                                        }}
+                                        containerStyle={{
+                                            //width: 130,
+                                            minWidth: 130,
+                                            marginHorizontal: 20,
+                                            marginVertical: 10,
+                                        }}
+                                        "#3BB143"
+                */
             }
             <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
                 <AntDesign name="arrowleft" size={100} color="black" onPress={() => { console.log('parent:', element.parent); navigation.navigate(element.parent, {}) }} />
                 {
                     element.navigation?.next?.type === "button" && <Button
                         title={i18n.t([`${element.pageId}.next.title`])}
-                        color="#3BB143"
-                        style={{maxHeight: 100, height: 100, maxWidth: 250, width: 250}}
-                        contentContainerStyle={{maxHeight: 100, height: 100, maxWidth: 250, width: 250}}
+                        color={element.navigation.next?.color ? element.navigation.next?.color : "#64842b"}
+                        style={{ maxHeight: 100, height: 100, maxWidth: 250, width: 250 }}
+                        contentContainerStyle={{ maxHeight: 100, height: 100, maxWidth: 250, width: 250 }}
                         titleStyle={{ fontWeight: 'bold', color: 'black' }}
                         onPress={() => navigation.navigate(element.navigation.next.pageId, {})}
 

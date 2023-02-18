@@ -90,7 +90,7 @@ const HomeScreen = ({ next }: { next: string }) => {
             </View>
             <View style={{ flex: 1, flexDirection: 'row' }}>
                 <AntDesign name="checksquareo" size={100} color="green" />
-                <AntDesign name="closesquareo" size={100} color="red" />
+                <AntDesign name="closesquareo" size={100} color="#b03634" />
                 <AntDesign name="eyeo" size={100} color="black" />
             </View>
             <View style={{ flex: 1, flexDirection: 'row' }}>

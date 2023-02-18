@@ -39,7 +39,7 @@ const FirstScreen = () => {
             <View style={{ flex: 2, alignItems: 'center', justifyContent: 'center' }}>
                 <Button
                     title={i18n.t('firstScreen.text1')}
-                    color="#3BB143"
+                    color="#64842b"
                     titleStyle={{ fontWeight: 'bold', color: 'black' }}
                     onPress={() => navigation.navigate("attentionScreen", {})}
                     style={{maxHeight: 100, height: 100, maxWidth: 350, width: 350}}
