@@ -5,7 +5,7 @@ import MarkersList from '../components/markers.component';
 import * as Location from "expo-location";
 import { getDistance } from 'geolib';
 import { FontAwesome } from '@expo/vector-icons'; 
-import markers from '../../markers.json';
+import markersInstance from '../data/markers.data';
 
 const { width, height } = Dimensions.get('window');
 const SCREEN_WIDTH = width;
@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
 
 
 const MapScreen = () => {
-    console.log("map screen start: ", markers.items.length);
-    const [markerFlatList, setMarkerFlatList] = useState([]);
+    console.log("map screen start: ", markersInstance.getMarkersList().length);
+    const [markerFlatList, setMarkerFlatList] = useState(new Array());
     const [markersList, setMarkersList] = useState(new Array());
 
     useEffect(() => {
@@ -53,7 +53,7 @@ const MapScreen = () => {
           let location = await Location.getCurrentPositionAsync({});
           console.log('location: ', location);
           const mList = new Array();
-          markers.items.forEach((a) => {
+          markersInstance.getMarkersList().forEach((a) => {
               if (a.lat !== '' && a.lng !== '') {
                   mList.push(a);
               }
@@ -92,7 +92,7 @@ const MapScreen = () => {
                     lng: lon2,
                     lat: lat2
                 });
-                if (d <= 6000) {
+                if (d <= 1000) {
                     markersList[i].distance = Math.round(d / 100) / 10;
 
                     selectedMarker.push(markersList[i]);
@@ -100,6 +100,7 @@ const MapScreen = () => {
             }
         }
         selectedMarker.sort((a,b) => a.distance - b.distance);
+        console.log('selectedMarker:', selectedMarker);
         setMarkerFlatList(selectedMarker)
     }
 
@@ -112,7 +113,7 @@ const MapScreen = () => {
             >
                 <MapView
                     provider={undefined}
-                    followsUserLocation={false}
+                    followsUserLocation={true}
                     showsUserLocation={true}
                     style={styles.map}
                     scrollEnabled={true}

@@ -53,7 +53,13 @@ buttonStyle={{
                 {
                     element.content.map((e: any) => <View key={e.contentId}>
                         {
-                            e.type === "text" && <View style={{ margin: 10, borderWidth: 1 }}><Text>{i18n.t([`${e.contentId}`])}</Text></View>
+                            e.type === "text" && <View style={{
+                                margin: 30,
+                                borderWidth: 1, borderRadius: 10,
+                                width: 350
+                            }}>
+                                <Text>{i18n.t([`${e.contentId}`])}</Text>
+                            </View>
                         }
 
                         {
@@ -121,69 +127,6 @@ buttonStyle={{
                     </View>)
                 }
             </View>
-            {/*
-            <View style={{ flex: 3, alignItems: 'center', justifyContent: 'center', flexDirection: element.grid ? element.grid : 'column' }}>
-
-                
-                    element.answers && element.answers.map((e: any) => <View style={{ flex: 1, marginLeft: 10 }}>
-
-                        <Button
-                            title={e.text}
-                            buttonStyle={{
-                                backgroundColor: e.color,
-                                borderWidth: 2,
-                                height: 100,
-                                borderColor: 'black',
-                                borderRadius: 30,
-                            }}
-                            containerStyle={{
-                                //width: 130,
-                                minWidth: 130,
-                                marginHorizontal: 20,
-                                marginVertical: 10,
-                            }}
-                            titleStyle={{ fontWeight: 'bold', color: 'black' }}
-                            onPress={() => { console.log('next1:', e.next); navigation.navigate(e.next, {}) }}
-
-                        />
-
-                    </View>)
-                }
-
-            </View>
-            }
-            {
-                element.showButton === 'true' && <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
-                    {element.answers &&
-                        element.answers.map((e: any) => <AntDesign key={`${e.id}-icon`} name={e.icon} size={100}
-                            color={e.buttonColor} onPress={buttonClickedHandler}
-                            style={{
-                                marginHorizontal: 20,
-                                marginVertical: 10,
-                            }}
-                            onPress={() => { console.log('next1:', e.next); navigation.navigate(e.next, {}) }}
-                        />
-                        )}
-                </View>
-*/
-                /*
-                 buttonStyle={{
-                                            backgroundColor: '#3BB143',
-                                            borderWidth: 2,
-                                            height: 100,
-                                            width: 200,
-                                            borderColor: 'black',
-                                            borderRadius: 30,
-                                        }}
-                                        containerStyle={{
-                                            //width: 130,
-                                            minWidth: 130,
-                                            marginHorizontal: 20,
-                                            marginVertical: 10,
-                                        }}
-                                        "#3BB143"
-                */
-            }
             <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center' }}>
                 <AntDesign name="arrowleft" size={100} color="black" onPress={() => { console.log('parent:', element.parent); navigation.navigate(element.parent, {}) }} />
                 {

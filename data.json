@@ -81,13 +81,7 @@
                     "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.instruction1",
                     "color": "#b03634",
                     "type": "text"
-                },
-                {
-                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.countdown",
-                    "color": "#b03634",
-                    "type": "countdown"
                 }
-
             ]
         },
         {
@@ -256,7 +250,7 @@
                     "type": "button",
                     "color": "#b03634",
                     "next": "",
-                    "pageId": "START_REVIVE_NOT_BREATHING_START_REVIVE",
+                    "pageId": "START_REVIVE_NOT_BREATHING_START_REVIVE"
 
                 }
             },
