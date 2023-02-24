@@ -1,4 +1,63 @@
 {
-    "HELLO": "Hello",
-    "PRESS": "Press"
+    "title": "Start",
+    "homeScreen": {
+        "genericInfo": "Basic info about app",
+        "text1": "Paprašyti nusistatyti kalbą ir leisti naudoti geolokacijos nustatymą, kai programėlė įjungta, kad  prireiktus naudotis, tokie niekai negaišintų laiko.\nPakvieti įsidiegus panaršyti, kad būtų aiškiau, ko tikėtis\nparašome, apie ženklus"
+    },
+    "menuScreen": {
+        "title": "",
+        "stopBlood": "Stabdau masyvų kraujavimą",
+        "enliven": "Pradedu gaivinti nekvėpuojantį"
+    },
+    "attentionScreen": {
+        "title": "",
+        "text1": "Man ir aukai aplinka yra saugi",
+        "text2": "Elektros laidai",
+        "text3": "Degalų, dujų nuotėkis",
+        "text4": "Atvira ugnis",
+        "text5": "Intensyvus eismas",
+        "text6": "Jei aplinka nesaugi - gelbėti draudžiama"
+    },
+    "firstScreen": {
+        "text1": "Savipagalbos mygtukas\n\nPaspauskite, jei norite\nišsiųsti SMSnį bendrosios pagalbos centrą.",
+        "text2": "Pirmoji pagalba"
+    },
+    "mapScreen": {
+        "title": "Žemėlapis"
+    },
+    "INFO_BLOOD": {
+        "title": "",
+        "askHelp": "Šaukiu praeivius į pagalbą:\n \"tu su juoda striuke, paskambink 112\"",
+        "start": "",
+        "next": {
+            "title": "Pagalba iškviesta"
+        }
+    },
+    "INFO_BLOOD_STOP_BLOOD_STEP_1": {
+        "title": "",
+        "massiveBlood": "Pulsuojančiai/gausiai kraujuoja",
+        "normalBlood": "Kraujuoja negausiai, gelbėju nekvėpuojantį"
+    },
+    "STOP_BLOOD_STEP_1_MASSIVE_BLOOD": {
+        "title": "",
+        "stopWithHand": "Spaudžiam ranka",
+        "stopWithBandage": "Spaudžiam tvarsčiu",
+        "instruction1": "Pakeliu galūnę aukščiau širdies\nJei dar kraujuoja, dedu dar vieną spaudžiamąjį tvarstį ir spaudžiu",
+        "next": {
+            "title": "Vis dar kraujuoja iš rankų ir kojų, dedu turniketą"
+        }
+    },
+    "MASSIVE_BLOOD_TOURNIQUET": {
+        "title": "",
+        "instruction1": "Dedu turniketą 5 - 7 cm virš žaizdos.",
+        "howToPut": "Kaip uždėti turniketą",
+        "howToMake": "Kaip pasidaryti",
+        "next": {
+            "title": "Kraujavimas sustabdytas, turniketą nuima tik medikas"
+        }
+    },
+    "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE": {
+        "title": "",
+        "instruction1": "Parankinės priemonės iš tvirtos austinės medžiagos skiautės (pvz., trikampės skarelės, marškinėlių ir veržtuvo šakos, šaukšto ir pan.)\nImprovizuoto turniketo gamybai netinka trosai, kabeliai, laidai (jie siauri ir traiško audinius, bet kraujotakos nesustabdo), taip pat kelnių ar ekipuotės diržai (per mažas elastingumas, todėl nepavyksta veiksmingai užveržti)"
+    }
 }

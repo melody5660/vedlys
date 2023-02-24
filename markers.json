@@ -1,0 +1,5871 @@
+{
+    "items": [
+        {
+            "_id": "63ce4d11074923bf6c39b007",
+            "title": "SEB bankas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b008",
+            "title": "MediCA klinika",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b009",
+            "title": "Pirminės sveikatos priežiūros centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b00a",
+            "title": "Oro uostas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b00b",
+            "title": "Bažnyčia",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b00c",
+            "title": "Ateities” progimnazija Baseinas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b00d",
+            "title": "Maxima",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b00e",
+            "title": "Sporto mokykla",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b00f",
+            "title": "Bažnyčia",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b010",
+            "title": "Poliklinika",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b011",
+            "title": "Šeimos gydytojų centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b012",
+            "title": "Pirminės sveikatos priežiūros centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.609Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af7d",
+            "title": "Cido arena",
+            "description": "Prie pagrindinių durų",
+            "lat": "55.7332797",
+            "lng": "24.3392506",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af7e",
+            "title": "Impuls sporto klubas",
+            "description": "Registratūroje",
+            "lat": "55.7339636",
+            "lng": "24.3372959",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af7f",
+            "title": "Rajono savivaldybės poliklinika",
+            "description": "",
+            "lat": "55.736419",
+            "lng": "24.3639092",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af80",
+            "title": "Telšių rajono savivaldybės Varnių seniūnija",
+            "description": "",
+            "lat": "55.7423524",
+            "lng": "22.3710708",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af81",
+            "title": "Dailės galerija kultūros centre",
+            "description": "",
+            "lat": "55.750232",
+            "lng": "25.8432981",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af82",
+            "title": "Rajono savivaldybė",
+            "description": "I aukšto patalpos",
+            "lat": "55.8073071",
+            "lng": "23.540131",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af83",
+            "title": "Baseinas",
+            "description": "",
+            "lat": "55.8097075",
+            "lng": "23.5455789",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af84",
+            "title": "Autobusų stotis",
+            "description": "",
+            "lat": "55.8128487",
+            "lng": "23.5450274",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af85",
+            "title": "Lidl",
+            "description": "",
+            "lat": "55.8133929",
+            "lng": "23.5473097",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af86",
+            "title": "Pirmosios pagalbos teikimo stotis",
+            "description": "",
+            "lat": "55.8367132",
+            "lng": "24.9918108",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af87",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "55.8388595",
+            "lng": "24.9767283",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af88",
+            "title": "Autobusų stotis",
+            "description": "",
+            "lat": "55.9472744",
+            "lng": "25.5889601",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af89",
+            "title": "Baseinas",
+            "description": "",
+            "lat": "55.9501001",
+            "lng": "25.5796352",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af8a",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "55.9544575",
+            "lng": "25.5871293",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af8b",
+            "title": "Sodra ir Užimtumo tarnyba",
+            "description": "",
+            "lat": "55.9650576",
+            "lng": "25.5904511",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af8c",
+            "title": "Psichiatrinė ligoninė",
+            "description": "",
+            "lat": "55.9762468",
+            "lng": "25.5833587",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af8d",
+            "title": "Medicus",
+            "description": "",
+            "lat": "55.9769315",
+            "lng": "23.8484237",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af8e",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "55.9773681",
+            "lng": "23.8473996",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af8f",
+            "title": "Sporto centras",
+            "description": "",
+            "lat": "55.9792632",
+            "lng": "23.8605652",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af90",
+            "title": "Karolinos Praniauskaitės viešoji biblioteka",
+            "description": "Tame pačiame pastate yra Telšių kultūros centras",
+            "lat": "55.9819535",
+            "lng": "22.2450258",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af91",
+            "title": "Žemaitijos turizmo informacijos centras",
+            "description": "",
+            "lat": "55.9836474",
+            "lng": "22.2532845",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af92",
+            "title": "Pirminės sveikatos priežiūros centras",
+            "description": "",
+            "lat": "55.9838731",
+            "lng": "22.2321677",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af93",
+            "title": "Arena",
+            "description": "",
+            "lat": "55.9839341",
+            "lng": "22.2434336",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af94",
+            "title": "Pakruojo dvaro rūmai",
+            "description": "",
+            "lat": "55.9861088",
+            "lng": "23.879168",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af95",
+            "title": "Joniškėlio slaugos ir palaikomojo gydymo skyrius",
+            "description": "",
+            "lat": "56.0266602",
+            "lng": "24.1693143",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af96",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "56.0626998",
+            "lng": "24.4001549",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af97",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "56.0846287",
+            "lng": "23.9740805",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af98",
+            "title": "Ventos seniūnija",
+            "description": "",
+            "lat": "56.1898115",
+            "lng": "22.6878688",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af99",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "56.2388623",
+            "lng": "23.6107927",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af9a",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "56.2423898",
+            "lng": "23.6177442",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af9b",
+            "title": "Krašto muziejus Žiemgala",
+            "description": "",
+            "lat": "56.2726796",
+            "lng": "23.9982024",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af9c",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "56.3217624",
+            "lng": "22.8805082",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af9d",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "56.358521",
+            "lng": "23.255888",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af9e",
+            "title": "Psichiatrijos klinika",
+            "description": "I priėmimo-skubios pagalbos skyriuje, pirmame aukšte, procedūrų kabinete",
+            "lat": "54.886997370133315",
+            "lng": "23.87461868",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af9f",
+            "title": "Autobusų stotis",
+            "description": "Laukimo salėje",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa0",
+            "title": "Sporto halė",
+            "description": "Budintis sargas 8 610 30604 (visą parą)",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa1",
+            "title": "UPA reabilitacijos centras",
+            "description": "Vienas budinčios slaugytojos poste, kitas VO2Max tyrimų kabinete",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa2",
+            "title": "Grand SPA",
+            "description": "Vienas 107 procedūrų kabinete, kitas vandens pramogų parke",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa3",
+            "title": "Eglės sanatorija",
+            "description": "Ž 1 korpuse ir Gydykloje",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa4",
+            "title": "Druskininkų gydykla",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa5",
+            "title": "Radisson Blu Royal Astorija Hotel",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa6",
+            "title": "Akropolis",
+            "description": "2 vnt. parduotuvėje, 1 pagalbinėse patalpose",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa7",
+            "title": "Gebenių g. 30",
+            "description": "Kontaktinis nr: 863199229",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa8",
+            "title": "Marių ligoninė",
+            "description": "tel. 837568490; vienas administracinio pastato pusrūsyje, kitas priėmimo – skubios pagalbos skyriuje",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afa9",
+            "title": "Lietuvos sporto universitetas",
+            "description": "Kontaktinis asmuo: Saulė Sipavičienė 861098692",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afaa",
+            "title": "Festo",
+            "description": "Defibriliatorius padėtas 1 aukšto didžiojoje virtuvėje, lentynėlėje ant sienos. Kontaktinis nr: 866200818",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afab",
+            "title": "Oro uostas",
+            "description": "2 a. laukimo salė, 8 642 44442 spausti 2",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afac",
+            "title": "Pirminės sveikatos priežiūros centras",
+            "description": "tel. 834969015 , antrame aukšte 207 kab.",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afad",
+            "title": "Nordic Sugar",
+            "description": "tik įvažiavus į teritoriją apsaugos punktas 8 607 83712 (visą parą)",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afae",
+            "title": "Raseinių gydytojų centras",
+            "description": "Antras aukštas 7 kabinetas",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afaf",
+            "title": "Akropilis",
+            "description": "2 vnt. parduotuvėje, 1 pagalbinėse patalpose",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb0",
+            "title": "Pirminės sveikatos priežiūros centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb1",
+            "title": "Vandens parkas",
+            "description": "Med. punkte vandens pramogų dalyje",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb2",
+            "title": "Neravų g. 8",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb3",
+            "title": "Leipalingio ambulatorija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb4",
+            "title": "Merkines palaikomojo gydymo ir slaugos ligoninė",
+            "description": "tel. 861865039",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb5",
+            "title": "Sporto ir rekreacijos centro viešbutis",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb6",
+            "title": "Miesto bendruomenės centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb7",
+            "title": "Sporto ir rekreacijos centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb8",
+            "title": "Ligoninė",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afb9",
+            "title": "Oro uostas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afba",
+            "title": "Rimi",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afbb",
+            "title": "Ikea",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afbc",
+            "title": "Affidea",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afbd",
+            "title": "Futbolo federacija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afbe",
+            "title": "Nacionalinis radijas ir televizija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afbf",
+            "title": "SEB bankas",
+            "description": "1a. klientų aptarnavimo sk., klientų laukimo salė",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc0",
+            "title": "Miesto savivaldybės visuomenės sveikatos biuras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc1",
+            "title": "SEB bankas",
+            "description": "1a. klientų aptarnavimo skyrius, klientų laukimo zona",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc2",
+            "title": "Ligonių kasa",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc3",
+            "title": "Rimi express",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc4",
+            "title": "Operos ir baleto teatras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc5",
+            "title": "VMI",
+            "description": "tel. 868773660 ",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc6",
+            "title": "VMI",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc7",
+            "title": "VMI",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc8",
+            "title": "SEB bankas",
+            "description": "1aukštas prie susitikimų kambarių",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afc9",
+            "title": "Teva Baltics",
+            "description": "Bure, 14-as aukštas",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afca",
+            "title": "Rimi",
+            "description": "9 aukštas",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afcb",
+            "title": "Dueto verslo centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afcc",
+            "title": "Lavoriškių seniūnija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afcd",
+            "title": "VMI",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afce",
+            "title": "SEB bankas",
+            "description": "1a. prie administratorės",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afcf",
+            "title": "Lidl",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd0",
+            "title": "Jurgio Dovydaičio viešoji biblioteka",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd1",
+            "title": "Teva Baltics",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd2",
+            "title": "Veiverių PSPC",
+            "description": "tel. 831968131",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd3",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd4",
+            "title": "Sporto ir kultūros centras",
+            "description": "tel. 864613076",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd5",
+            "title": "Panemunės pradinė mokykla",
+            "description": "I aukšte šalia sporto salės",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd6",
+            "title": "Gebenių g. 26-34",
+            "description": "Kontaktinis nr: 863199229",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd7",
+            "title": "Kauno Šančių poliklinika, 314 kab. procedūrinis",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd8",
+            "title": "Lidl",
+            "description": "tel. 8652534174",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afd9",
+            "title": "Geležinkelio stotyje, Kasų/laukimo salė\n\n\n\n\n\n\n\n\n",
+            "description": "Šančiai, 44362 Kaunas",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afda",
+            "title": "AED Žalgirio arena, apsaugos poste prie tarnybinio arenos įėjimo",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afdb",
+            "title": "Akropolis/ Maxima",
+            "description": "Administracinės patalpos, 1 aukštas prie laiptinės (šalia WC);\nInfo kasa, pagrindinis išėjimas",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afdc",
+            "title": "SEB bankas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afdd",
+            "title": "Lietuvos energetikos institutas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afde",
+            "title": "Lietuvos energetikos institutas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afdf",
+            "title": "Kauno jėzuitų gimnazija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe0",
+            "title": "Dramos teatras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe1",
+            "title": "Nacionalinis Kauno dramos teatras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe2",
+            "title": "Miesto sodas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe3",
+            "title": "Swedbank",
+            "description": "I a., operacijų salė",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe4",
+            "title": "Miesto savivaldybė",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe5",
+            "title": "Miesto savivaldybė",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe6",
+            "title": "KTU",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe7",
+            "title": "KTU",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe8",
+            "title": "Santakos slėnis",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afe9",
+            "title": "Prisikėlimo bažnyčia",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afea",
+            "title": "Futbolo federacija",
+            "description": "I aukštas prie sargo",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afeb",
+            "title": "Sabonio krepšinio centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afec",
+            "title": "Sabonio krepšinio centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afed",
+            "title": "LSMU gimnazija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afee",
+            "title": "Rimi",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afef",
+            "title": "Ortopedijos technika",
+            "description": "tel. 837312947; 3a. procedūrinis kabinetas",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff0",
+            "title": "SEB bankas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff1",
+            "title": "Lemona",
+            "description": "tel. 837337711",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff2",
+            "title": "Rimi",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff3",
+            "title": "Rimi",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff4",
+            "title": "Lidl",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff5",
+            "title": "Kultūros centras",
+            "description": "tel. 834551058",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff6",
+            "title": "VŠĮ Irta",
+            "description": "tel. 867083350; 868729063",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff7",
+            "title": "Atžalyno progimnazija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff8",
+            "title": "Antano Giedraičio-Giedriaus gimnazija",
+            "description": "tel. 865507502",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aff9",
+            "title": "Kultūros ir turizmo centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39affa",
+            "title": "Dūkšto seniūnija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39affb",
+            "title": "Rimi",
+            "description": "GIVEN juvelyrika | Klaipeda Molas",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39affc",
+            "title": "Advantec",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39affd",
+            "title": "SEB bankas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39affe",
+            "title": "Klaipėdos baldai",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39afff",
+            "title": "Senamiesčio pirminės sveikatos priežiūros centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b000",
+            "title": "SEB bankas",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b001",
+            "title": "RYO",
+            "description": "Parduotuvėje Gera dovana",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b002",
+            "title": "Rajono poliklinika",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b003",
+            "title": "Lidl",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b004",
+            "title": "Šeduvos gimnazija",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b005",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39b006",
+            "title": "Akropolis",
+            "description": "3 vnt. Kika - gyvūnų prekių parduotuvė",
+            "lat": "",
+            "lng": "",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.608Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef3",
+            "title": "Viečiūnų ambulatorija",
+            "description": "Vonių skyriuje",
+            "lat": "54.05855100",
+            "lng": "24.05072900",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef4",
+            "title": "Eišiškių seniūnija",
+            "description": "",
+            "lat": "54.16889680",
+            "lng": "24.99477100",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef5",
+            "title": "Rajono savivaldybė",
+            "description": "tel. 861865039 ",
+            "lat": "54.21074800",
+            "lng": "24.57067700",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef6",
+            "title": "Varėnos sporto centras",
+            "description": "tel. 861865039 ",
+            "lat": "54.21205700",
+            "lng": "24.56134600",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef7",
+            "title": "Kultūros centras",
+            "description": "tel. 861205538",
+            "lat": "54.23282600",
+            "lng": "23.51882100",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef8",
+            "title": "Rajono savivaldybė",
+            "description": "tel. 861205538",
+            "lat": "54.23436400",
+            "lng": "23.51630200",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef9",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "54.30866870",
+            "lng": "25.38326050",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aefa",
+            "title": "Santarvės gimnazija",
+            "description": "",
+            "lat": "54.31125160",
+            "lng": "25.37756770",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aefb",
+            "title": "Daugų seniūnija",
+            "description": "tel. 867881437",
+            "lat": "54.36244200",
+            "lng": "24.34393300",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aefc",
+            "title": "Simno seniūnija",
+            "description": "tel. 867178261",
+            "lat": "54.38208200",
+            "lng": "23.64747700",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aefd",
+            "title": "Rajono savivaldybė",
+            "description": "tel. 868261612",
+            "lat": "54.395232",
+            "lng": "24.046149",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aefe",
+            "title": "Miesto savivaldybė",
+            "description": "",
+            "lat": "54.396316",
+            "lng": "24.048657",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aeff",
+            "title": "Lidl",
+            "description": "",
+            "lat": "54.39985",
+            "lng": "24.023062",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af00",
+            "title": "Rimi",
+            "description": "Topo centras",
+            "lat": "54.40708",
+            "lng": "24.016444",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af01",
+            "title": "MediCa klinika",
+            "description": "Procedūrinis kabinetas, pažymėtas Nr. 7, įėjus į kliniką, tiesiai - į kairę; Kontaktinis nr: 862022183 (medica reg), 860785711 – administratorė; Pasiekiamas darbo dienomis nuo 8-19val.",
+            "lat": "54.408562",
+            "lng": "24.019562",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af02",
+            "title": "Jašiūnų seniūnija",
+            "description": "",
+            "lat": "54.4386822",
+            "lng": "25.3120111",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af03",
+            "title": "Savivaldybė",
+            "description": "",
+            "lat": "54.5573145",
+            "lng": "23.3484562",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af04",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "54.5583999",
+            "lng": "23.3497426",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af05",
+            "title": "Juodšilių seniūnija",
+            "description": "",
+            "lat": "54.5792829",
+            "lng": "25.2618235",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af06",
+            "title": "Pagirių seniūnija",
+            "description": "",
+            "lat": "54.5799317",
+            "lng": "25.2008845",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af07",
+            "title": "Rudaminos seniūnija",
+            "description": "",
+            "lat": "54.5910049",
+            "lng": "25.3478896",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af08",
+            "title": "Pagrindinė mokykla",
+            "description": "tel. 862060567",
+            "lat": "54.627663",
+            "lng": "22.815272",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af09",
+            "title": "Vytauto Didžiojo gimnazija",
+            "description": "",
+            "lat": "54.6347099",
+            "lng": "24.9357784",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af0a",
+            "title": "Kultūros ir laisvalaikio centras",
+            "description": "tel. 868531581",
+            "lat": "54.635245",
+            "lng": "23.945514",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af0b",
+            "title": "Kalvelių seniūnija",
+            "description": "",
+            "lat": "54.6360163",
+            "lng": "25.6882975",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af0c",
+            "title": "Nemėžio seniūnija",
+            "description": "",
+            "lat": "54.636902",
+            "lng": "25.3561706",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af0d",
+            "title": "Kultūros rūmai",
+            "description": "",
+            "lat": "54.638492",
+            "lng": "24.9333702",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af0e",
+            "title": "Kultūros centras",
+            "description": "tel. 861675788",
+            "lat": "54.639687",
+            "lng": "22.755075",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af0f",
+            "title": "Priešgaisrinė gelbėjimo įstaiga",
+            "description": "",
+            "lat": "54.6468777",
+            "lng": "24.9357964",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af10",
+            "title": "Sporto arena",
+            "description": "tel. 831960053",
+            "lat": "54.647749",
+            "lng": "23.961558",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af11",
+            "title": "Kultūros rūmai",
+            "description": "",
+            "lat": "54.6498059",
+            "lng": "25.048583",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af12",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "54.6507328",
+            "lng": "25.4840889",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af13",
+            "title": "AVIA Solutions Group",
+            "description": "tel. 869555502",
+            "lat": "54.6514545",
+            "lng": "25.2714136",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af14",
+            "title": "Rajono savivaldybė",
+            "description": "tel. 862025186 ",
+            "lat": "54.65383",
+            "lng": "23.03609",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af15",
+            "title": "Sporto ir pramogų centras",
+            "description": "tel. 868744994",
+            "lat": "54.65939",
+            "lng": "23.038219",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af16",
+            "title": "Kariuomenės sporto klubas",
+            "description": "",
+            "lat": "54.6609811",
+            "lng": "25.2848102",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af17",
+            "title": "Sveikatos apsaugos ministerija",
+            "description": "",
+            "lat": "54.683587",
+            "lng": "25.279029",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af18",
+            "title": "Eika",
+            "description": "tel. 868724793",
+            "lat": "54.6854423",
+            "lng": "25.2591133",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af19",
+            "title": "Teisingumo ministerija",
+            "description": "tel. 861654702, Sumontuotas spintelėje I aukšto fojė prie lankytojų priimamojo",
+            "lat": "54.6878743",
+            "lng": "25.2747319",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af1a",
+            "title": "Maltos ordino pagalbos tarnyba",
+            "description": "2 aukšte",
+            "lat": "54.6888974",
+            "lng": "25.2640279",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af1b",
+            "title": "Vasario 16-osios g. 14",
+            "description": "",
+            "lat": "54.689691",
+            "lng": "25.272889",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af1c",
+            "title": "Sporto 18",
+            "description": "",
+            "lat": "54.694907",
+            "lng": "25.298815",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af1d",
+            "title": "SEB bankas",
+            "description": "2 vnt 1 ir 7 aukste",
+            "lat": "54.6977007",
+            "lng": "25.2679212",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af1e",
+            "title": "Antakalnio g. 36",
+            "description": "tel. 865773803",
+            "lat": "54.7012476",
+            "lng": "25.3089585",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af1f",
+            "title": "LIDL Centrinė būstinė",
+            "description": "",
+            "lat": "54.7024744",
+            "lng": "25.2109184",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af20",
+            "title": "Ozas",
+            "description": "1 aukštas prie informacijos + Bitė Lietuva",
+            "lat": "54.714185",
+            "lng": "25.273247",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af21",
+            "title": "SEB bankas",
+            "description": "3a. prie administratorės",
+            "lat": "54.719716",
+            "lng": "25.2835",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af22",
+            "title": "Santakos gimnazija",
+            "description": "tel. 868031709",
+            "lat": "54.720704",
+            "lng": "23.220855",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af23",
+            "title": "Rimi",
+            "description": "",
+            "lat": "54.73165",
+            "lng": "25.245697",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af24",
+            "title": "Savivaldybės sporto centras",
+            "description": "",
+            "lat": "54.7413777",
+            "lng": "23.4940266",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af25",
+            "title": "Avižienių seniūnija",
+            "description": "",
+            "lat": "54.7633229",
+            "lng": "25.1890121",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af26",
+            "title": "Pirmosios pagalbos teikimo stotis",
+            "description": "",
+            "lat": "54.766277",
+            "lng": "23.725668",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af27",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "54.7700284",
+            "lng": "24.8139605",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af28",
+            "title": "Kudirkos Naumiesčio seniūnija",
+            "description": "tel. 868220568 ",
+            "lat": "54.77459",
+            "lng": "22.863882",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af29",
+            "title": "Savivaldybės sporto centras",
+            "description": "",
+            "lat": "54.7837213",
+            "lng": "24.6659434",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af2a",
+            "title": "Žiežmarių kultūros centras",
+            "description": "tel. 869914521",
+            "lat": "54.803265",
+            "lng": "24.44104",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af2b",
+            "title": "Bezdonių seniūnija",
+            "description": "",
+            "lat": "54.8048256",
+            "lng": "25.5154157",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af2c",
+            "title": "Pirmosios pagalbos teikimo stotis",
+            "description": "tel. 834658248 Gyd. Aldonos Madzevičienės kabinetas I-IV nuo 8-17h, V nuo 8-16h.",
+            "lat": "54.807528",
+            "lng": "24.444996",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af2d",
+            "title": "Riešės seniūnija",
+            "description": "",
+            "lat": "54.8096124",
+            "lng": "25.2375018",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af2e",
+            "title": "Jonučių progimnazija",
+            "description": "Prie pagrindinio įėjimo durų tik įėjus i mokyklą, po dešine puse, prie budėtojo; naudotis galima 24/7",
+            "lat": "54.834394",
+            "lng": "23.879767",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af2f",
+            "title": "Nemenčinės seniūnija",
+            "description": "",
+            "lat": "54.8471972",
+            "lng": "25.4658554",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af30",
+            "title": "Rajono savivaldybė",
+            "description": "tel. 860024913",
+            "lat": "54.861319",
+            "lng": "24.456017",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af31",
+            "title": "Žaslių pirmosios pagalbos teikimo stotis",
+            "description": "tel. 868212625",
+            "lat": "54.865047",
+            "lng": "24.590216",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af32",
+            "title": "Rumšiškių kultūros centras",
+            "description": "tel. 865619513 ",
+            "lat": "54.866322",
+            "lng": "24.221056",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af33",
+            "title": "Maišiagalos seniūnija",
+            "description": "",
+            "lat": "54.870362",
+            "lng": "25.0594606",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af34",
+            "title": "Šančių poliklinika",
+            "description": "tel. 837342054 , 314 kab. procedūrinis",
+            "lat": "54.872741",
+            "lng": "23.936266",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af35",
+            "title": "Geležinkelio stotis",
+            "description": "tel. 865560234, Kasų/laukimo salė",
+            "lat": "54.886762",
+            "lng": "23.932009",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af36",
+            "title": "Autobusų stotis",
+            "description": "Laukimo salė",
+            "lat": "54.889432",
+            "lng": "23.928165",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af37",
+            "title": "Psichiatrijos klinika",
+            "description": "tel. 837422540, pirmame aukšte, I priėmimo-skubios pagalbos skyriuje, procedūrų kabinete",
+            "lat": "54.889677",
+            "lng": "23.883803",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af38",
+            "title": "Žalgirio arena",
+            "description": "Apsaugos poste prie tarnybinio arenos įėjimo",
+            "lat": "54.890459",
+            "lng": "23.914565",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af39",
+            "title": "Akropolis/ Maxima",
+            "description": "Administracinės patalpos, šalia apsaugos posto; Alkoholio, gaiviųjų gėrimų skyrius. Bicycle Self reaper station, Karaliaus Mindaugo pr. 49, 44333 Kaunas",
+            "lat": "54.892616",
+            "lng": "23.91758",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af3a",
+            "title": "SEB bankas",
+            "description": "",
+            "lat": "54.894561",
+            "lng": "23.901631",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af3b",
+            "title": "Kauno jėzuitų gimnazija",
+            "description": "",
+            "lat": "54.895778",
+            "lng": "23.885457",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af3c",
+            "title": "Forto dvaras",
+            "description": "Prie restorano įėjimo",
+            "lat": "54.896373",
+            "lng": "23.887426",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af3d",
+            "title": "Šaulių sąjunga",
+            "description": "tel. 865777680; 24/7 Pastate pas budintį, antrame aukšte. Patekimas per bromą, juodos durys.",
+            "lat": "54.897234",
+            "lng": "23.919568",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af3e",
+            "title": "Swedbank",
+            "description": "tel. 852684444; I a., operacijų salė",
+            "lat": "54.897834",
+            "lng": "23.90983",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af3f",
+            "title": "Lietuvos sporto universitetas",
+            "description": "Kontaktinis asmuo: Saulė Sipavičienė 861098692",
+            "lat": "54.898328",
+            "lng": "23.934617",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af40",
+            "title": "Park Inn by Radisson",
+            "description": "Viešbučio registratūroje",
+            "lat": "54.898491",
+            "lng": "23.919695",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af41",
+            "title": "Santakos slėnis",
+            "description": "",
+            "lat": "54.899647",
+            "lng": "23.961512",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af42",
+            "title": "Ąžuolyno sporto ir sveikatingumo centras",
+            "description": "",
+            "lat": "54.899705",
+            "lng": "23.933428",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af43",
+            "title": "Girstučio baseinas",
+            "description": "tel. 863044404 ",
+            "lat": "54.907346",
+            "lng": "23.974598",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af44",
+            "title": "Lidl",
+            "description": "tel. 8652534185",
+            "lat": "54.908268",
+            "lng": "23.983552",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af45",
+            "title": "RIMI",
+            "description": "",
+            "lat": "54.917644",
+            "lng": "23.966289",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af46",
+            "title": "Rimi",
+            "description": "",
+            "lat": "54.922061",
+            "lng": "23.963054",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af47",
+            "title": "Lidl logistikos centras",
+            "description": "",
+            "lat": "54.9319492",
+            "lng": "24.0310273",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af48",
+            "title": "Mega",
+            "description": "tel. 869702568; Pagrindinis įėjimas priešais akvariumą, dešinėje pusėje ant kolonos",
+            "lat": "54.939706",
+            "lng": "23.892339",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af49",
+            "title": "Jaunimo kūrybos ir sporto centras",
+            "description": "tel. 862178778",
+            "lat": "54.954051",
+            "lng": "23.038363",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af4a",
+            "title": "Autobusų stotis",
+            "description": "tel. 868644317",
+            "lat": "54.954405",
+            "lng": "23.048094",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af4b",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "55.0404439",
+            "lng": "24.95732",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af4c",
+            "title": "Kūno kultūros ir sporto centras",
+            "description": "tel. 861292908",
+            "lat": "55.072752",
+            "lng": "24.276194",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af4d",
+            "title": "Rajono savivaldybės kultūros centras",
+            "description": "tel. 834951848",
+            "lat": "55.075017",
+            "lng": "24.27533",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af4e",
+            "title": "Autobusų stotis",
+            "description": "tel. 868425036",
+            "lat": "55.075746",
+            "lng": "24.279778",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af4f",
+            "title": "Socialinių paslaugų centras",
+            "description": "tel. 834954722",
+            "lat": "55.075922",
+            "lng": "24.261957",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af50",
+            "title": "Sporto arena",
+            "description": "tel. 868605100",
+            "lat": "55.07669",
+            "lng": "24.273085",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af51",
+            "title": "Kultūros centras",
+            "description": "tel. 868756705",
+            "lat": "55.07815",
+            "lng": "22.775082",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af52",
+            "title": "Rimkų filialas",
+            "description": "",
+            "lat": "55.078276",
+            "lng": "24.260694",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af53",
+            "title": "Naujamiesčio progimnazija",
+            "description": "tel. 863185420",
+            "lat": "55.0816577",
+            "lng": "22.7779032",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af54",
+            "title": "Lidl",
+            "description": "",
+            "lat": "55.082006",
+            "lng": "24.269739",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af55",
+            "title": "Achemos poliklinika",
+            "description": "tel. 834956603",
+            "lat": "55.086346",
+            "lng": "24.326216",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af56",
+            "title": "Pirmosios pagalbos teikimo stotis",
+            "description": "tel. 85464430",
+            "lat": "55.133137",
+            "lng": "21.914725",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af57",
+            "title": "Kūno kultūros ir sporto centras",
+            "description": "",
+            "lat": "55.2254129",
+            "lng": "25.4189519",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af58",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "55.2310684",
+            "lng": "25.41957",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af59",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "55.2492158",
+            "lng": "24.7627812",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af5a",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "55.2495773",
+            "lng": "24.7642583",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af5b",
+            "title": "Paliesiaus dvaras",
+            "description": "",
+            "lat": "55.249936",
+            "lng": "26.47726",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af5c",
+            "title": "Ukmergės stadionas",
+            "description": "vidaus salė",
+            "lat": "55.2507142",
+            "lng": "24.784882",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af5d",
+            "title": "Vlado Šlaito viešoji biblioteka",
+            "description": "",
+            "lat": "55.2524318",
+            "lng": "24.7714347",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af5e",
+            "title": "Pirmosios pagalbos teikimo stotis",
+            "description": "tel. 868718645",
+            "lat": "55.263483",
+            "lng": "23.470494",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af5f",
+            "title": "Atžalyno gimnazija",
+            "description": "tel. 868671484",
+            "lat": "55.281389",
+            "lng": "23.957222",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af60",
+            "title": "Aušros progimnazija",
+            "description": "tel. 867259409",
+            "lat": "55.284732",
+            "lng": "23.954609",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af61",
+            "title": "M. Daukšos viešoji biblioteka",
+            "description": "tel. 869807632",
+            "lat": "55.284814",
+            "lng": "23.98159",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af62",
+            "title": "Rajono savivaldybė",
+            "description": "tel. 861157384",
+            "lat": "55.288206",
+            "lng": "23.973623",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af63",
+            "title": "Nidos kempingas",
+            "description": "tel. 868241150; 846952045",
+            "lat": "55.298681",
+            "lng": "20.982537",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af64",
+            "title": "Arena",
+            "description": "tel. 861827344",
+            "lat": "55.299582",
+            "lng": "23.989763",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af65",
+            "title": "Didžiasalio gaisrinė",
+            "description": "",
+            "lat": "55.3165862",
+            "lng": "26.6793381",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af66",
+            "title": "Pamario pagrindinė mokykla",
+            "description": "",
+            "lat": "55.3399437",
+            "lng": "21.4704631",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af67",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "55.3416174",
+            "lng": "21.4604544",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af68",
+            "title": "I-oji gimnazija",
+            "description": "",
+            "lat": "55.3437573",
+            "lng": "21.4672546",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af69",
+            "title": "Vydūno gimnazija",
+            "description": "",
+            "lat": "55.3453804",
+            "lng": "21.4710071",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af6a",
+            "title": "Rajono savivaldybė",
+            "description": "tel. 869883232",
+            "lat": "55.381627",
+            "lng": "23.117525",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af6b",
+            "title": "Turgus",
+            "description": "tel. 865500357",
+            "lat": "55.385361",
+            "lng": "23.125668",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af6c",
+            "title": "VŠĮ Sveikatos oazė",
+            "description": "",
+            "lat": "55.5218297",
+            "lng": "25.0842102",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af6d",
+            "title": "Liudvikos ir Stanislovo Didžiulių viešoji biblioteka",
+            "description": "",
+            "lat": "55.5250775",
+            "lng": "25.1021584",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af6e",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "55.5261387",
+            "lng": "25.1041394",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af6f",
+            "title": "Šiluvos seniūnija",
+            "description": "tel. 861430328",
+            "lat": "55.531091",
+            "lng": "23.225375",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af70",
+            "title": "Pirminės sveikatos priežiūros centras",
+            "description": "",
+            "lat": "55.5978088",
+            "lng": "23.1971769",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af71",
+            "title": "Rajono savivaldybė",
+            "description": "",
+            "lat": "55.628765",
+            "lng": "22.9299261",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af72",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "55.6318994",
+            "lng": "22.9357769",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af73",
+            "title": "Baisogalos gimnazija",
+            "description": "",
+            "lat": "55.6397537",
+            "lng": "23.7320662",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af74",
+            "title": "Jūrininkų sveikatos priežiūros centras",
+            "description": "",
+            "lat": "55.694104",
+            "lng": "21.149282",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af75",
+            "title": "Savivaldybė",
+            "description": "CRPlus stendas įrengtas šalia budinčiojo, tik įėjus į savivaldybės pastatą. Budinčio tel.: 846396137",
+            "lat": "55.712359",
+            "lng": "21.133492",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af76",
+            "title": "Gulbė",
+            "description": "Lifepak CRPlus stendas įrengtas parduotuvės viduje. Budinčio tel.: 861618130",
+            "lat": "55.714735",
+            "lng": "21.144694",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af77",
+            "title": "Rimi",
+            "description": "",
+            "lat": "55.7172628",
+            "lng": "24.3387844",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af78",
+            "title": "Rietavo pirminės sveikatos priežiūros centras",
+            "description": "",
+            "lat": "55.7235384",
+            "lng": "21.9312151",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af79",
+            "title": "Poliklinika",
+            "description": "",
+            "lat": "55.7301611",
+            "lng": "24.3408205",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af7a",
+            "title": "Fizinės medicinos ir reabilitacijos centras",
+            "description": "",
+            "lat": "55.7302913",
+            "lng": "24.3398656",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af7b",
+            "title": "SEB bankas",
+            "description": "",
+            "lat": "55.7303744",
+            "lng": "24.358223",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39af7c",
+            "title": "Kultūros centras",
+            "description": "",
+            "lat": "55.7310289",
+            "lng": "26.2472546",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.607Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63ce4d11074923bf6c39aef2",
+            "title": "Kalviškių šeimos gydytojo kabinete",
+            "description": "",
+            "lat": "54.02499200",
+            "lng": "24.00342800",
+            "fileName": [],
+            "type": "",
+            "createTimestamp": "2023-01-23T09:02:09.606Z",
+            "status": "APPROVED",
+            "workHours": {
+                "monday": "0-24",
+                "tuesday": "0-24",
+                "wednesday": "0-24",
+                "thursday": "0-24",
+                "friday": "0-24",
+                "saturday": "0-24",
+                "sunday": "0-24"
+            }
+        },
+        {
+            "_id": "63b1e439e3594668750605db",
+            "title": "Pikti žmonės",
+            "description": "Labai pikti žmonės",
+            "lat": 54.8067912918417,
+            "lng": 25.334472656250004,
+            "fileName": [
+                "img1672602681827317974966.png"
+            ],
+            "type": "PAINT",
+            "createTimestamp": "2023-01-01T19:51:21.941Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63af4a9ce3594668750605da",
+            "title": "Test",
+            "description": "Test",
+            "lat": 55.17,
+            "lng": 23.57,
+            "fileName": [
+                "img1672432284332120073440.jpeg"
+            ],
+            "type": "MEETING",
+            "createTimestamp": "2022-12-30T20:31:24.384Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63ad4268e3594668750605d9",
+            "title": "Plakatas",
+            "description": "Plakatas šlovinantis Staliną",
+            "lat": 55.41038028410273,
+            "lng": 25.378417968750004,
+            "fileName": [
+                "img167229911234896279584.png"
+            ],
+            "type": "PAINT",
+            "createTimestamp": "2022-12-29T07:31:52.867Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63ad4218e3594668750605d8",
+            "title": "Mitingas",
+            "description": "Mitingas su sovietine simbolika",
+            "lat": 55.17,
+            "lng": 23.57,
+            "fileName": [
+                "img167229901868713450108.jpeg"
+            ],
+            "type": "MEETING",
+            "createTimestamp": "2022-12-29T07:30:32.882Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63ad3e04b9cf5562831f43e8",
+            "title": "Savivaldybės administracija",
+            "description": "I aukšto patalpos",
+            "lat": "55.8173071",
+            "lng": "21.540131",
+            "fileName": [],
+            "type": "DEFIBRILLATOR",
+            "createTimestamp": "2022-12-29T07:13:08.763Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63ad3e04b9cf5562831f43e9",
+            "title": "Savivaldybės administracija 1",
+            "description": "I aukšto patalpos",
+            "lat": "57.8473071",
+            "lng": "25.540131",
+            "fileName": [],
+            "type": "DEFIBRILLATOR",
+            "createTimestamp": "2022-12-29T07:13:08.763Z",
+            "status": "APPROVED"
+        },
+        {
+            "_id": "63ad3a7ce3594668750605d7",
+            "title": "Mitingas",
+            "description": "Didelis mitingas",
+            "lat": 55.863403164123476,
+            "lng": 23.983154296875004,
+            "fileName": [
+                "img1672297084125669009177.jpeg"
+            ],
+            "type": "MEETING",
+            "createTimestamp": "2022-12-29T06:58:04.821Z",
+            "status": "APPROVED"
+        }
+    ]
+}

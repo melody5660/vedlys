@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "vedlys",
-    "slug": "vedlys",
+    "name": "Mama",
+    "slug": "Mama",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -20,7 +20,13 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.dziugas.alkas.vedlys"
+      "bundleIdentifier": "com.dziugas.alkas.vedlys",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +42,7 @@
       "eas": {
         "projectId": "e90d27f5-557e-40f9-9324-edf323bac71d"
       }
-    }
+    },
+    "owner": "dziugas.alkas"
   }
 }

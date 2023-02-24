@@ -41,7 +41,7 @@
             "content": [
                 {
                     "contentId": "INFO_BLOOD_STOP_BLOOD_STEP_1.massiveBlood",
-                    "color": "red",
+                    "color": "#b03634",
                     "type": "button",
                     "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
                 },
@@ -49,31 +49,454 @@
                     "contentId": "INFO_BLOOD_STOP_BLOOD_STEP_1.normalBlood",
                     "color": "grey",
                     "type": "button",
-                    "next": ""
+                    "next": "STOP_BLOOD_STEP_START_REVIVE"
                 }
             ]
         },
         {
             "pageId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD",
             "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "navigation": {
+                "next": {
+                    "nextId": "MASSIVE_BLOOD_TOURNIQUET",
+                    "pageId": "MASSIVE_BLOOD_TOURNIQUET",
+                    "type": "button",
+                    "color": "#64842b"
+                }
+            },
             "content": [
                 {
                     "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.stopWithHand",
-                    "color": "red",
+                    "color": "#b03634",
                     "type": "button",
                     "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
                 },
                 {
-                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.countdown",
-                    "color": "red",
-                    "type": "countdown"
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.stopWithBandage",
+                    "color": "#b03634",
+                    "type": "button",
+                    "next": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+                },
+                {
+                    "contentId": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD.instruction1",
+                    "color": "#b03634",
+                    "type": "text"
                 }
-
             ]
         },
         {
-            "pageId": "STOP_BLOOD_STEP_1_NORMAL_BLOOD",
-            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1"
+            "pageId": "MASSIVE_BLOOD_STOP_WITH_HAND",
+            "parent": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+
+        },
+        {
+            "pageId": "MASSIVE_BLOOD_STOP_WITH_BANDAGE",
+            "parent": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD"
+        },
+        {
+            "pageId": "MASSIVE_BLOOD_TOURNIQUET",
+            "parent": "STOP_BLOOD_STEP_1_MASSIVE_BLOOD",
+            "navigation": {
+                "next": {
+                    "nextId": "INFO_BLOOD_NEXT",
+                    "type": "button",
+                    "color": "#64842b"
+                }
+            },
+            "content": [
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET.instruction1",
+                    "color": "#b03634",
+                    "type": "text"
+                },
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET.howToPut",
+                    "color": "#b03634",
+                    "type": "button",
+                    "next": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_PUT"
+                },
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET.howToMake",
+                    "color": "#b03634",
+                    "type": "button",
+                    "next": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE"
+                }
+            ]
+        },
+        {
+            "pageId": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE",
+            "parent": "MASSIVE_BLOOD_TOURNIQUET",
+            "content": [
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE.instruction1",
+                    "color": "#b03634",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "STOP_BLOOD_STEP_START_REVIVE",
+            "parent": "INFO_BLOOD_STOP_BLOOD_STEP_1",
+            "navigation": {
+                "next": {
+                    "nextId": "START_REVIVE_NOT_BREATHING",
+                    "pageId": "START_REVIVE_NOT_BREATHING",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": ""
+                },
+                "previous": {
+                    "nextId": "START_REVIVE_BREATHING",
+                    "pageId": "START_REVIVE_BREATHING",
+                    "type": "button",
+                    "color": "#b03634"
+                }
+            },
+            "content": [
+                {
+                    "contentId": "STOP_BLOOD_STEP_START_REVIVE.instruction1",
+                    "type": "text"
+                },
+                {
+                    "contentId": "STOP_BLOOD_STEP_START_REVIVE.countDown",
+                    "type": "countdown"
+                }
+            ]
+        },
+        {
+            "pageId": "START_REVIVE_BREATHING",
+            "parent": "MASSIVE_BLOOD_TOURNIQUET",
+            "content": [
+                {
+                    "contentId": "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE.instruction1",
+                    "color": "#b03634",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "START_REVIVE_NOT_BREATHING",
+            "parent": "STOP_BLOOD_STEP_START_REVIVE",
+            "navigation": {
+                "next": {
+                    "nextId": "START_REVIVE_NOT_BREATHING_START_REVIVE",
+                    "pageId": "START_REVIVE_NOT_BREATHING_START_REVIVE",
+                    "type": "button"
+                }
+            },
+            "content": [
+                {
+                    "contentId": "START_REVIVE_NOT_BREATHING.instruction1",
+                    "color": "#b03634",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "START_REVIVE_NOT_BREATHING_START_REVIVE",
+            "parent": "START_REVIVE_NOT_BREATHING",
+            "content": [
+                {
+                    "contentId": "START_REVIVE_NOT_BREATHING_START_REVIVE.text1",
+                    "type": "text"
+                },
+                {
+                    "contentId": "START_REVIVE_NOT_BREATHING_START_REVIVE.text2",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "STOP_CHOKE",
+            "parent": "menuScreen",
+            "navigation": {
+                "next": {
+                    "nextId": "STOP_CHOKE_COMPLETE_CHOKE",
+                    "pageId": "COMPLETE_CHOKE",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": ""
+                }
+            },
+            "content": [
+                {
+                    "contentId": "STOP_CHOKE.instruction1",
+                    "color": "white",
+                    "type": "text"
+                },
+                {
+                    "contentId": "STOP_CHOKE.instruction2",
+                    "color": "white",
+                    "type": "text"
+                },
+                {
+                    "contentId": "STOP_CHOKE.instruction3",
+                    "color": "white",
+                    "type": "text"
+                },
+                {
+                    "contentId": "STOP_CHOKE.instruction4",
+                    "color": "white",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "COMPLETE_CHOKE",
+            "parent": "STOP_CHOKE",
+            "navigation": {
+                "next": {
+                    "nextId": "START_REVIVE_NOT_BREATHING_START_REVIVE",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": "",
+                    "pageId": "START_REVIVE_NOT_BREATHING_START_REVIVE"
+
+                }
+            },
+            "content": [
+                {
+                    "contentId": "COMPLETE_CHOKE.instruction1",
+                    "color": "white",
+                    "type": "text"
+                },
+                {
+                    "contentId": "COMPLETE_CHOKE.instruction2",
+                    "color": "white",
+                    "type": "text"
+                },
+                {
+                    "contentId": "COMPLETE_CHOKE.instruction3",
+                    "color": "white",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "STOP_STROKE",
+            "parent": "menuScreen",
+            "content": [
+                {
+                    "contentId": "STOP_STROKE.text1",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "pageId": "STOP_OTHER",
+            "parent": "menuScreen",
+            "content": [
+                {
+                    "contentId": "STOP_OTHER.poison",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": "STOP_POISON_OPTIONS",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_OTHER.injury",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": "STOP_INJURY",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_OTHER.fraction",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": "STOP_FRACTION",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_OTHER.blood",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": "STOP_BLOOD",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_OTHER.burn",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": "STOP_FROZEN",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_OTHER.convulsions",
+                    "type": "button",
+                    "color": "#b03634",
+                    "next": "STOP_CONVULSIONS",
+                    "height": 60,
+                    "margin": 10
+                }
+            ]
+        },
+        {
+            "pageId": "STOP_POISON_OPTIONS",
+            "parent": "STOP_OTHER",
+            "content": [
+                {
+                    "contentId": "STOP_POISON_OPTIONS.fumes",
+                    "type": "box",
+                    "color": "#fff",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_POISON_OPTIONS.food",
+                    "type": "box",
+                    "color": "#fff",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_POISON_OPTIONS.alcohol",
+                    "type": "box",
+                    "color": "#fff",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_POISON_OPTIONS.chemicals",
+                    "type": "box",
+                    "color": "#fff",
+                    "height": 60,
+                    "margin": 10
+                },
+                {
+                    "contentId": "STOP_POISON_OPTIONS.medicine",
+                    "type": "box",
+                    "color": "#fff",
+                    "height": 60,
+                    "margin": 10
+                }
+            ]
+        },
+        {
+            "pageId": "STOP_INJURY",
+            "parent": "STOP_OTHER",
+            "content": [
+                {
+                    "contentId": "STOP_INJURY.text1",
+                    "type": "box",
+                    "color": "#fff"
+                },
+                {
+                    "contentId": "STOP_INJURY.text2",
+                    "type": "box",
+                    "color": "#fff"
+                }
+                
+            ]
+        },
+        {
+            "pageId": "STOP_FRACTION",
+            "parent": "STOP_OTHER",
+            "content": [
+                {
+                    "contentId": "STOP_FRACTION.text1",
+                    "type": "box",
+                    "color": "#fff"
+                },
+                {
+                    "contentId": "STOP_FRACTION.text2",
+                    "type": "box",
+                    "color": "#fff"
+                }
+                
+            ]
+        },
+        {
+            "pageId": "STOP_BLOOD",
+            "parent": "STOP_OTHER",
+            "content": [
+                {
+                    "contentId": "STOP_BLOOD.text1",
+                    "type": "text",
+                    "color": "#fff"
+                },
+                {
+                    "contentId": "STOP_BLOOD.text2",
+                    "type": "text",
+                    "color": "#fff"
+                }
+                
+            ]
+        },
+        {
+            "pageId": "STOP_BURN",
+            "parent": "STOP_FROZEN",
+            "content": [
+                {
+                    "contentId": "STOP_BURN.text1",
+                    "type": "text",
+                    "color": "#fff"
+                },
+                {
+                    "contentId": "STOP_BURN.text2",
+                    "type": "text",
+                    "color": "#fff"
+                }
+                
+            ]
+        },
+        {
+            "pageId": "STOP_FROZEN",
+            "parent": "STOP_OTHER",
+            "navigation": {
+                "next": {
+                    "nextId": "STOP_FROZEN_BURN",
+                    "pageId": "STOP_BURN",
+                    "type": "button"
+                }
+            },
+            "content": [
+                {
+                    "contentId": "STOP_FROZEN.text1",
+                    "type": "text",
+                    "color": "#fff"
+                },
+                {
+                    "contentId": "STOP_FROZEN.text2",
+                    "type": "text",
+                    "color": "#fff"
+                }
+                
+            ]
+        },
+        {
+            "pageId": "STOP_CONVULSIONS",
+            "parent": "STOP_OTHER",
+            "content": [
+                {
+                    "contentId": "STOP_CONVULSIONS.text1",
+                    "type": "text",
+                    "color": "#fff"
+                },
+                {
+                    "contentId": "STOP_CONVULSIONS.text2",
+                    "type": "text",
+                    "color": "#fff"
+                },
+                {
+                    "contentId": "STOP_CONVULSIONS.text3",
+                    "type": "text",
+                    "color": "#fff"
+                }
+                ,
+                {
+                    "contentId": "STOP_CONVULSIONS.text4",
+                    "type": "text",
+                    "color": "#fff"
+                }
+                
+                
+            ]
         }
     ]
 

@@ -1,12 +1,16 @@
 {
     "title": "Pradžia",
     "homeScreen": {
-        "genericInfo": "Bendra info apie programėlę"
+        "genericInfo": "Bendra info apie programėlę",
+        "text1": "Paprašyti nusistatyti kalbą ir leisti naudoti geolokacijos nustatymą, kai programėlė įjungta, kad  prireiktus naudotis, tokie niekai negaišintų laiko.\nPakvieti įsidiegus panaršyti, kad būtų aiškiau, ko tikėtis\nparašome, apie ženklus"
     },
     "menuScreen": {
         "title": "",
         "stopBlood": "Stabdau masyvų kraujavimą",
-        "enliven": "Pradedu gaivinti nekvėpuojantį" 
+        "enliven": "Pradedu gaivinti nekvėpuojantį",
+        "choke": "Springimas",
+        "stroke": "Insultas",
+        "other": "Kiti atvejai"
     },
     "attentionScreen": {
         "title": "",
@@ -18,22 +22,140 @@
         "text6": "Jei aplinka nesaugi - gelbėti draudžiama"
     },
     "firstScreen": {
-        "text1": "Savipagalbos mygtukas\n\n",
+        "text1": "Savipagalbos mygtukas\n\nPaspauskite, jei norite\nišsiųsti SMS į bendrosios pagalbos centrą.",
         "text2": "Pirmoji pagalba"
     },
+    "mapScreen": {
+        "title": "Žemėlapis"
+    },
     "INFO_BLOOD": {
-        "askHelp":"Šaukiu praeivius į pagalbą:\n \"tu su juoda striuke, paskambink 112\"",
-        "start": "",
+        "askHelp": "Šaukiu praeivius į pagalbą:\n \"tu su juoda striuke, paskambink 112\"",
+        "start": "Vengiu tiesioginio kontakto su nukentėjusiojo krauju\nnaudoju vienkartines pirštines arba platikinį maišelį",
+        "title": "",
         "next": {
             "title": "Pagalba iškviesta"
         }
     },
     "INFO_BLOOD_STOP_BLOOD_STEP_1": {
+        "title": "",
         "massiveBlood": "Pulsuojančiai/gausiai kraujuoja",
         "normalBlood": "Kraujuoja negausiai, gelbėju nekvėpuojantį"
     },
     "STOP_BLOOD_STEP_1_MASSIVE_BLOOD": {
-        "stopWithHand": "Spaudžiam ranka"
-    }
+        "title": "",
+        "stopWithHand": "Spaudžiam ranka",
+        "stopWithBandage": "Spaudžiam tvarsčiu",
+        "instruction1": "Pakeliu galūnę aukščiau širdies\nJei dar kraujuoja, dedu dar vieną spaudžiamąjį tvarstį ir spaudžiu",
+        "next": {
+            "title": "Vis dar kraujuoja iš rankų ir kojų, dedu turniketą"
+        }
+    },
+    "MASSIVE_BLOOD_TOURNIQUET": {
+        "title": "",
+        "instruction1": "Dedu turniketą 5 - 7 cm virš žaizdos.",
+        "howToPut": "Kaip uždėti turniketą",
+        "howToMake": "Kaip pasidaryti",
+        "next": {
+            "title": "Kraujavimas sustabdytas, turniketą nuima tik medikas"
+        }
+    },
+    "MASSIVE_BLOOD_TOURNIQUET_HOW_TO_MAKE": {
+        "title": "",
+        "instruction1": "Parankinės priemonės iš tvirtos austinės medžiagos skiautės (pvz., trikampės skarelės, marškinėlių ir veržtuvo šakos, šaukšto ir pan.)\nImprovizuoto turniketo gamybai netinka trosai, kabeliai, laidai (jie siauri ir traiško audinius, bet kraujotakos nesustabdo), taip pat kelnių ar ekipuotės diržai (per mažas elastingumas, todėl nepavyksta veiksmingai užveržti)"
+    },
+    "STOP_BLOOD_STEP_START_REVIVE": {
+        "title": "",
+        "instruction1": "Švelniai papurtau pečius, garsiai paklausiu: \"Kaip jaučiatės?\"\nJeigu neatsako, įžnybių į ausies spenelį, kad sukelčiau skausmą.",
+        "next": {
+            "title": "Nekvėpuoja"
+        }
+    },
+    "STOP_CHOKE": {
+        "title": "",
+        "instruction1": "Jei asmuo užspringo, bet dar gali kosėti, reiškia, kvėpavimo takai nėra iki galo užkimšti - dalinis užspringimas",
+        "instruction2": "1. Klausiu \"ar užspringai?\", taip parodydamas, kad suprantu situaciją, nepalieku vieno.\n 2. Skatinu kosėti - stiprus kosulys yra geriausia svetimkūnio pašalinimo priemonė.\n3. Jei situacija negerėja ir gresia visiškas užspringimas, kviečiu 112",
+        "instruction3": "Nugaros nedaužau\n\nVaikų žemyn galva nekratau!",
+        "instruction4": "Jei užspringai pats - kosėk ir bėk į žmones, kol nepraradai sąmonės",
+        "next": {
+            "title": "Iškviečiau 112\n\nNebegali kosėti - visiškas užspringimas"
+        }
+    },
+    "COMPLETE_CHOKE": {
+        "title": "",
+        "instruction1": "Visiškas užspringimas - kai asmuo visiškai negali kalbėti, kvėpuoti arba kosėti. Jis gali griebtis už gerklės arba neįprastai judėti, blaškytis",
+        "instruction2": "1. Klausiu \"ar užspringai?\", taip parodydamas, kad suprantu ir noriu padėti.",
+        "instruction3": "Nugaros nedaužau",
+        "next": {
+            "title": "Prarado sąmonę"
+        }
+    },
+    "START_REVIVE_NOT_BREATHING": {
+        "title": "",
+        "instruction1": "Šaukiu praeivius į pagalbą:\n \"tu su juoda striuke, paskambink 112\"\nTu su kepure ateik padėti man gaivinti\nTu su akiniais atnešk defribiliatorių",
+        "next": {
+            "title": "Pradedu gaivinimą"
+        }
+    },
+    "START_REVIVE_NOT_BREATHING_START_REVIVE": {
+        "title": "",
+        "text1": "Atveriu kvėpavimo takus - atlošiu galvą ir pažiūriu, ar nėra burnoje svetimkūnio. Jei įmanoma, kabliu dviem pirštais pašalinu.",
+        "text2": "Susirandu krūtinkaulio vidurį, suneriu delnus vieną ant kito, spaudžiu iš visų jėgų ir atleidžiu. Ritmas ant kalno mūrai"
 
+    },
+    "STOP_STROKE": {
+        "title": "",
+        "text1": "F(ace) - nusišypsok\n\nA(rms) - pataikyk į nosį\n\nS(peech) - sklandžiai pasakyk \"lenk medį kol jaunas\"\n\nT(test all three) - užtenka, bet kurio vieno neįprastai atlikto veiksmo - įtariu insultą\n\nAnt operacinio stalo asmuo turi atsirasti per 4,5 val."
+    },
+    "STOP_OTHER": {
+        "title": "",
+        "poison": "Apsinuodijimasi (chemija, smalkės, alkoholis, medikamentai)",
+        "injury": "Galvos, stuburo, kaklo, dubens trauma",
+        "fraction": "Kaulų lūžiai",
+        "blood": "Kraujavimo stabdymas",
+        "burn": "Nudegimas\nNušalimas",
+        "convulsions": "Traukuliai"
+    },
+    "STOP_POISON_OPTIONS": {
+        "title": "",
+        "fumes": "Smalkės",
+        "food": "Maistas",
+        "alcohol": "Alkoholis",
+        "chemicals": "Buitinė chemija",
+        "medicine": "Medikamentai"
+    },
+    "STOP_INJURY": {
+        "title": "",
+        "text1": "Asmuo krito nuo 5 m, aukščio\nišlėkė iš automobilio\nnesėkmingai šoko į vandenį ir įtariu galvos, stuburo, kaklo, dubens traumą",
+        "text2": "1. Nejudinu ir neleidžiu nukentėjusiam judėti\n\n2. užkloju, kad nesušaltų\n\n3. Skambinu 112\n\n4. Jei sustoja kvėpavimas, pradedu gaivinimą"
+    },
+    "STOP_FRACTION": {
+        "title": "",
+        "text1": "Kaulų lūžiai, patempimas, sausgyslių plyšimas, nikstelėjimas",
+        "text2": "Šaldyti, imobilizuoti abu sąnarius\n\nImobilizuoti teisingoje anatominėje padėtyje arba taip, kaip rodome ir mažiausiai diskomforto\n\nNejudinti svetimkūnio"
+    },
+    "STOP_BLOOD": {
+        "title": "",
+        "text1": "Užsidėkite pirštines ar plastikinį maišelį.\n\nPlačiai uždenkite žaizdą steriliu tvarsčiu arba švaria nepūkuota medžiaga.\n\nSpaudžiamojo tvarsčio pagalba\n stabdykite kraujavimą, tačiau nepabloginkite kraujotakos.\n\nImobilizuokite traumuotą galūnę taip, kaip ir esant uždara, lūžiui\n+ spaudžiamasis tvarstis\n+ šulinukas",
+        "text2": "NEGALIMA\n\nspausti išsikišusių kaulų fragmentų.\natstatyti galūnės ašį ir tokiu būdu grąžinti lūžusius kaulus ar jų fragmentus į vietą\n\ntraukti iš žaizdos bet kokį svetimkūnį"
+    },
+    "STOP_FROZEN": {
+        "title": "Nušalimai",
+        "text1": "Eikite į šiltą patalpą\nNuvilkite drabužius\nDuokite energijos suteikiančio maisto, šilto skysčio\nNuimkite visus papuošalus, laikrodžius ir kt.\nNepradurkite atsiradusių pūslių\nŠildykite galūnes 42C vandenyje",
+        "text2": "NEGALIMA\n\ntrinti nušalusių vietų, ypač sniegu - pažeis odą ir padarys žaizdas\n\ngerti alkoholio (praplečia kraujagysles ir dar greičiau atiduoda organizmo šilumą)",
+        "next": {
+            "title": "Nudegimai"
+        }
+    },
+    "STOP_BURN": {
+        "title": "Nudegimai",
+        "text1": "Nutraukite žalojantį poveikį\nNuvilkite arba apkirpkite pridegusius drabužius\nNuimkite visus papuošalus, laikrodžius ir kt.\n\nNeplėškite prie nudegimo vietos prikibusių drabužių, daiktų ar nudegusios odos\n\nNepradurkite atsiradusių puslių.",
+        "text2": "NEGALIMA\n\nnudegusios odos tepti riebalais - nes sukruta plėvelė stabdo organizmo vėsinimą\n\ndėti ledo - gali nušaldyti odą jums nejaučiant"
+    },
+    "STOP_CONVULSIONS": {
+        "title": "",
+        "text1": "Prasidėjus traukuliams asmuo netenka sąmonės, pasirūpinu įmanoma saugia aplinka patiriančiam traukulius",
+        "text2": "Visada kviečiu 112\n\nŽiūriu į laikrodį - svarbu atvykusiems medikams",
+        "text3": "NEGALIMA\n\nKišti jokių daiktų į burną (nieko baisaus jeigu įsikąs į liežuvį)\n\nstengtis suvaldyti jėga",
+        "text4": "Traukulių metu gali trumpam sustoti kvėpavimas, bet nesirūpinu ir gaivinimno nepradedu.\n\nKai traukuliai baigiasi, asmenį be sąmonės guldau į saugią šoninę padėtį"
+    }
 }
