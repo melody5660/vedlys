@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "mama",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -20,7 +20,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.dziugas.alkas.vedlys",
+      "bundleIdentifier": "undefined",
       "infoPlist": {
         "UIBackgroundModes": [
           "location",
@@ -33,7 +33,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.dziugas.alkas.vedlys"
+      "package": "undefined"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
