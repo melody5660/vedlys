@@ -37,13 +37,11 @@ const styles = StyleSheet.create({
 
 
 const MapScreen = () => {
-    console.log("map screen start: ", markersInstance.getMarkersList().length);
     const [markerFlatList, setMarkerFlatList] = useState(new Array());
     const [markersList, setMarkersList] = useState(new Array());
 
     useEffect(() => {
         (async () => {
-          console.log('start');
           let { status } = await Location.requestForegroundPermissionsAsync();
           if (status !== 'granted') {
             console.log('Permission to access location was denied');
@@ -92,7 +90,7 @@ const MapScreen = () => {
                     lng: lon2,
                     lat: lat2
                 });
-                if (d <= 1000) {
+                if (d <= 10000) {
                     markersList[i].distance = Math.round(d / 100) / 10;
 
                     selectedMarker.push(markersList[i]);
