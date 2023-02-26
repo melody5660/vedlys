@@ -4,7 +4,7 @@ import MapView, { UrlTile, LocalTile, Marker } from 'react-native-maps';
 import MarkersList from '../components/markers.component';
 import * as Location from "expo-location";
 import { getDistance } from 'geolib';
-import { FontAwesome } from '@expo/vector-icons'; 
+import { FontAwesome } from '@expo/vector-icons';
 import markersInstance from '../data/markers.data';
 
 const { width, height } = Dimensions.get('window');
@@ -12,7 +12,8 @@ const SCREEN_WIDTH = width;
 const ASPECT_RATIO = width / height;
 const LATITUDE = 54.689691;
 const LONGITUDE = 25.272889;
-const LATITUDE_DELTA = 0.2222;
+const LATITUDE_DELTA = 0.0192;
+
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 const styles = StyleSheet.create({
@@ -42,25 +43,31 @@ const MapScreen = () => {
 
     useEffect(() => {
         (async () => {
-          let { status } = await Location.requestForegroundPermissionsAsync();
-          if (status !== 'granted') {
-            console.log('Permission to access location was denied');
-            return;
-          }
-    
-          let location = await Location.getCurrentPositionAsync({});
-          console.log('location: ', location);
-          const mList = new Array();
-          markersInstance.getMarkersList().forEach((a) => {
-              if (a.lat !== '' && a.lng !== '') {
-                  mList.push(a);
-              }
-          });
-  
-          setMarkersList(mList);
-          getWithinDistance(mList, location);
+            let { status } = await Location.requestForegroundPermissionsAsync();
+            if (status !== 'granted') {
+                console.log('Permission to access location was denied');
+                return;
+            }
+
+            let location = await Location.getCurrentPositionAsync({});
+            console.log('location: ', location);
+            setRegion({
+                latitude: location.coords.latitude,
+                longitude: location.coords.longitude,
+                latitudeDelta: LATITUDE_DELTA,
+                longitudeDelta: LONGITUDE_DELTA,
+            });
+            const mList = new Array();
+            markersInstance.getMarkersList().forEach((a) => {
+                if (a.lat !== '' && a.lng !== '') {
+                    mList.push(a);
+                }
+            });
+
+            setMarkersList(mList);
+            getWithinDistance(mList, location);
         })();
-      }, []);
+    }, []);
 
 
     const [urlTemplate, setUrlTemplate] = useState("http://c.tile.openstreetmap.org/{z}/{x}/{y}.png");
@@ -81,7 +88,7 @@ const MapScreen = () => {
             var lat2 = markersList[i]?.lat;
             var lon2 = markersList[i]?.lng;
             if (lat2 && lon2) {
-                
+
                 const d = getDistance(
                     {
                         lng: lon1,
@@ -90,17 +97,23 @@ const MapScreen = () => {
                     lng: lon2,
                     lat: lat2
                 });
-                if (d <= 10000) {
+                if (d <= 1000) {
                     markersList[i].distance = Math.round(d / 100) / 10;
 
                     selectedMarker.push(markersList[i]);
                 }
             }
         }
-        selectedMarker.sort((a,b) => a.distance - b.distance);
+        selectedMarker.sort((a, b) => a.distance - b.distance);
         console.log('selectedMarker:', selectedMarker);
         setMarkerFlatList(selectedMarker)
     }
+
+    const changeRegion = async (region: any) => {
+        console.log(
+            Math.log2(360 * (SCREEN_WIDTH / 256 / region.longitudeDelta)) + 1
+        );
+    };
 
 
     return (
@@ -111,14 +124,16 @@ const MapScreen = () => {
             >
                 <MapView
                     provider={undefined}
-                    followsUserLocation={true}
+                    //followsUserLocation={true}
                     showsUserLocation={true}
                     style={styles.map}
                     scrollEnabled={true}
                     zoomEnabled={true}
                     pitchEnabled={true}
                     rotateEnabled={true}
-                    initialRegion={region}
+                    region={region}
+                    showsScale={true}
+
 
                 >
                     <UrlTile
@@ -152,8 +167,8 @@ const MapScreen = () => {
 
                     ))}
                 </MapView>
-                
-                    <MarkersList markersList={markerFlatList} />
+
+                <MarkersList markersList={markerFlatList} />
             </View>
         </View >
 
